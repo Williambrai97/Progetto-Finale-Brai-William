@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="it">
+         <!--Header del documento.. De Robertis, Teresa, Giuliano Milani, Laura Regnicoli, e Stefano Zamponi, a c. di. 2016. Opere di dubbia attribuzione e altri documenti danteschi. Vol.VII, tomo III del Codice Diplomatico Dantesco. Pubblicazioni del centro Pio Rajna. Nuova edizione commentata delle opere di Dante, VII. Roma: Salerno editrice, nn 144-148, pp. 234-248-->
+        <fileDesc> 
+            <titleStmt> 
+                <title>Pace di Dante: versione elettronica</title>
+                <respStmt>
+                    <resp>Curatori del documento originale</resp>
+                    <persName ref="#TD" role="editor">
+                        <forename>Teresa</forename>
+                        <surname>De Robertis</surname>
+                    </persName>
+                    <persName ref="#GM" role="editor">
+                        <forename>Giuliano</forename>
+                        <surname>Milani</surname>
+                    </persName>
+                    <persName ref="#LR" role="editor">
+                        <forename>Laura</forename>
+                        <surname>Regnicoli</surname>
+                    </persName>
+                    <persName ref="#SZ" role="editor">
+                        <forename>Stefano</forename>
+                        <surname>Zamponi</surname>
+                    </persName>
+                </respStmt> 
+                <respStmt xml:id="codifica">
+                    <resp>Codifica a cura di:</resp>
+                    <persName ref="#WB">
+                        <forename>William</forename>
+                        <surname>Brai</surname>
+                    </persName>
+                </respStmt>
+             </titleStmt> 
+             <editionStmt>
+                  <edition>Edizione digitale, <date>2022</date>
+                  </edition>
+                        <respStmt>
+                            <resp>Responsabili dell'edizione: </resp>
+                            <persName ref="#WB">
+                                <forename>William</forename>
+                                <surname>Brai</surname>
+                            </persName>
+                        </respStmt>
+             </editionStmt>
+             <extent>
+                <measure unit="MiB" quantity="X.X">About four megabytes</measure>
+                <!--da inserire una volta finito il file-->
+            </extent>
+        <publicationStmt> 
+            <publisher>Università di Pisa</publisher>
+            <pubPlace ref="#PI">Pisa</pubPlace>
+            <authority>Brai</authority>
+            <date>2022</date>
+        </publicationStmt> 
+        <sourceDesc> 
+            <listBibl xml:id="Pacedant">
+            <head>Pace di Dante: Documenti 144-148</head>
+                <biblStruct xml:lang="it">
+                    <analytic>
+                        <title level="a">Pace di Dante: Documenti 144-148</title>
+                    </analytic>
+                    <monogr>
+                        <author>
+                            <persName ref="#Dante"> 
+                                <forename>Dante</forename>
+                                <surname>Alighieri</surname>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName ref="#TD">
+                                <forename>Teresa</forename>
+                                <surname>De Robertis</surname>
+                            </persName>
+                        </editor>
+                        <editor>
+                            <persName ref="#LR">
+                                <forename>Laura</forename>
+                                <surname>Regnicoli</surname>
+                            </persName>
+                        </editor>
+                        <title level="m" type="sub">Codice Diplomatico Dantesco</title>
+                        <imprint>
+                            <date>2016</date>   
+                        </imprint>
+                        <biblScope unit="page" from="234" to="248">234-248</biblScope>
+                    </monogr>
+                    <monogr id="monogrbook">
+                        <author>
+                            <persName ref="#Dante"> 
+                                <forename>Dante</forename>
+                                <surname>Alighieri</surname>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName ref="#TD">
+                                <forename>Teresa</forename>
+                                <surname>De Robertis</surname>
+                            </persName>
+                        </editor>
+                        <editor>
+                            <persName ref="#GM">
+                                <forename>Giuliano</forename>
+                                <surname>Milani</surname>
+                            </persName>
+                        </editor>
+                        <editor>
+                        <persName ref="#LR">
+                            <forename>Laura</forename>
+                            <surname>Regnicoli</surname>
+                        </persName>
+                        </editor>
+                        <editor>
+                            <persName ref="#SZ" role="editor">
+                                <forename>Stefano</forename>
+                                <surname>Zamponi</surname>
+                            </persName>
+                        </editor>
+                        <title level="m" type="main">Opere di dubbia attribuzione e altri documenti danteschi</title>  
+                        <imprint>
+                            <pubPlace>Pubblicazioni del centro Pio Rajna: <placeName ref="#RM">Roma</placeName></pubPlace> 
+                            <publisher>Salerno editrice</publisher>
+                            <date>2016</date>   
+                        </imprint>
+                        <biblScope unit="tome"><num type="ordinal" value="3">III</num></biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s" type="main">Nuova edizione commentata delle opere di Dante</title>
+                        <biblScope unit="volume"><num type="ordinal" value="7">VII</num></biblScope>
+                    </series>   
+                </biblStruct>
+                <!--descrizione manoscritto-->
+                <msDesc> 
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <region>Liguria</region>
+                        <settlement>La Spezia</settlement>
+                        <repository><choice><abbr>ASSp</abbr><expan>Archivio Notarile di La Spezia</expan></choice></repository>
+                        <collection>le sette tabulae della Pace di Dante</collection>
+                        <msName>Pace di Dante</msName> 
+                    </msIdentifier>
+                    <physDesc> 
+                        <objectDesc form="boards">
+                            <supportDesc>
+                            <support>
+                                <p>Le tabulae della Pace di Dante sono costituite da altrettanti <material  function="support">bifogli</material> estrapolati dal cartolario di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName><pc>.</pc></p>
+                            </support>
+                            <extent>
+                                <measure type="composition" unit="tabulae" quantity="7">7 tabulae</measure>
+                            </extent>
+                            <collation> 
+                                <p>I documenti si dispongono all'interno delle <locus>tabulae I-VI</locus><pc>.</pc> In precedenza all'interno del cartulario di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> si disponevano nei<locus> cc.270r-275v</locus> del protocollo<pc>.</pc></p>
+                            </collation> 
+                            <condition>
+                                <p>Le carte di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> erano rovinate da ampie macchie nella porzione inferiore gi&#224; all'epoce del <persName ref="#GL"><surname>Lami</surname></persName>; ulteriormente deterioratesi, sono state oggetto di un recente restauro e di un tentativo (non impeccabile) di ricostruzione virtuale del testo<pc>.</pc></p>
+                            </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc> 
+                    <msPart xml:id="ms144">
+                        <msIdentifier>
+                            <msName>144. 1306 ottobre 6, Sarzana</msName>
+                        </msIdentifier>
+                        <head>Documento nr 144. 1306 ottobre 6, Sarzana</head>
+                        <physDesc>
+                            <p>Costituito da bifogli e posizionato all'interno della <locus>tabula Ir-v</locus><pc>.</pc> Un tempo parte del cartulario di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> facente parte della <locus>serie 342</locus> <locus>nr. 5</locus> del <locus>c. 270r-v</locus></p>
+                        </physDesc>
+                            <history>
+                                <origin>
+                                    <p>Scritto da <persName ref="#Dante"><forename>Dante</forename></persName>, nominato procuratore da <persName ref="#Franmal"><forename>Franceschino</forename> <surname>Malaspina</surname></persName>, con lo scopo di accordare una pace tra la famiglia dei Malaspina e il <persName ref="#Antlun"><roleName type="nobility">conte</roleName> <roleName type="office">vescovo</roleName> di <placeName ref="#Lun">Luni</placeName></persName><pc>.</pc></p>
+                                </origin>
+                                <provenance>
+                                    <p>gi&#224; precedentemente conservato a <placeName ref="#Sarz">Sarzana</placeName>, presso l' <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie 342, <num type="cardinal" value="5">nr. 5</num>: imbreviature del notaio  <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>di Parente</surname> <surname>Stupio</surname></persName>, c.270<choice><abbr>r</abbr><expan>recto</expan></choice>-<choice><abbr>v</abbr><expan>verso</expan></choice><pc>.</pc></p>
+                                </provenance>
+                            </history>
+                    </msPart>
+                    <msPart xml:id="ms145">
+                        <msIdentifier>
+                            <msName>145. 1306 ottobre 6, Castelnuovo (Sarzana)</msName>
+                        </msIdentifier>
+                        <head>Documento nr 145. 1306 ottobre 6, Castelnuovo (Sarzana)</head>
+                        <physDesc>
+                            <p>Costituito da bifogli e posizionato all'interno delle <locus>tabulae IIr-vr</locus><pc>.</pc> Un tempo parte del cartulario di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> facente parte della <locus>serie 342</locus> <locus>nr. 5</locus> dei <locus>cc. 271r-274v</locus></p>
+                        </physDesc>
+                            <history>
+                                <origin>
+                                    <p>Scritto da <persName ref="#Dante"><forename>Dante</forename></persName>, rappresentante <persName ref="#Franmal"><forename>Franceschino</forename> <surname>Malaspina</surname></persName>, che agisce nell'interesse di accordare una pace tra la famiglia dei Malaspina e il <persName ref="#Antlun"><roleName type="nobility">conte</roleName> <roleName type="office">vescovo</roleName> di <placeName ref="#Lun">Luni</placeName></persName><pc>.</pc></p>
+                                </origin>
+                                <provenance>
+                                    <p>gi&#224; precedentemente conservato a <placeName ref="#Sarz">Sarzana</placeName>, presso l' <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie 342, <num type="cardinal" value="5">nr. 5</num>: imbreviature del notaio  <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>di Parente</surname> <surname>Stupio</surname></persName>, cc.271<choice><abbr>r</abbr><expan>recto</expan></choice>-274<choice><abbr>v</abbr><expan>verso</expan></choice><pc>.</pc></p>
+                                </provenance>
+                            </history>
+                    </msPart>
+                    <msPart xml:id="ms146">
+                        <msIdentifier>
+                            <msName>146. 1306 ottobre 13, Castelnuovo (Sarzana)</msName>
+                        </msIdentifier>
+                        <head>Documento nr 146. 1306 ottobre 13, Castelnuovo (Sarzana)</head>
+                        <msContents>
+                            <p>Nel margine superiore, a sinistra, il riferimento alla redazione <hi rend="italic">in mundum</hi> &#60;&#60;Facta&#62;&#62; (sottointeso <hi rend="italic">charta</hi>)<pc>.</pc></p>
+                        </msContents>
+                        <physDesc>
+                            <p>Costituito da bifogli e posizionato all'interno delle <locus>tabulae Vv-VIr</locus><pc>.</pc> Un tempo parte del cartulario di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> facente parte della <locus>serie 342</locus> <locus>nr. 5</locus> dei <locus>cc. 274v-275r</locus></p>
+                        </physDesc>
+                            <history>
+                                <origin>
+                                    <p><persName ref="#Antlun"><forename>Antonio</forename><roleName type="nobility">conte</roleName> <roleName type="office">vescovo</roleName> di <placeName ref="#Lun">Luni</placeName></persName> stipula la pace col Comune di <placeName ref="#Sarz">Sarzana</placeName>, rappresentato da <persName><forename>Francesco</forename> <surname>di Corvetto</surname> da <placeName ref="#Sarz">Sarzana</placeName> <roleName type="nobility">vicario</roleName></persName> del <persName><roleName type="nobility">podest&#224;</roleName> <forename>Ubaldo</forename> <surname>Malpigio</surname> da <placeName ref="#LUC">Lucca</placeName></persName>, rimettendo tutte le condanne contro gli uomini di <placeName ref="#Sarz">Sarzana</placeName><pc>.</pc></p>
+                                </origin>
+                                <provenance>
+                                    <p>gi&#224; precedentemente conservato a <placeName ref="#Sarz">Sarzana</placeName>, presso l' <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie 342, <num type="cardinal" value="5">nr. 5</num>: imbreviature del notaio  <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>di Parente</surname> <surname>Stupio</surname></persName>, cc.274<choice><abbr>v</abbr><expan>verso</expan></choice>-275<choice><abbr>r</abbr><expan>recto</expan></choice><pc>.</pc></p>
+                                </provenance>
+                            </history>
+                    </msPart>
+                    <msPart xml:id="ms147">
+                        <msIdentifier>
+                            <msName>147. 1306 ottobre 18, Castelnuovo (Sarzana)</msName>
+                        </msIdentifier>
+                        <head>Documento nr 147. 1306 ottobre 18, Castelnuovo (Sarzana)</head>
+                        <msContents>
+                            <p>Prima dell'atto, in modulo minore, l'annotazione relativa alla redazione <hi rend="italic">in mundum</hi> &#60;&#60;Facta Comuni Punzani&#62;&#62; Nella data, la lettura &#60;&#60;<num type="ordinal" value="18">XVIII</num><hi rend="apex">°</hi>&#62;&#62; (anzich&#232; <num type="ordinal" value="19">XVIIII</num><hi rend="apex">°</hi>&#62;&#62; come nell' edizione di <persName ref="#GUIB"><surname>Biagi</surname></persName>-<persName ref="#GILP"><surname>Passerini</surname></persName>) non &#232; del tutto certa, ma il fatto che sul <hi rend="italic">verso</hi> della medesima carta segua il documento 148, <date when="--/10/18">datato 18 ottobre</date>, la rende preferibile<pc>.</pc></p>
+                        </msContents>
+                        <physDesc>
+                            <p>Costituito da bifogli e posizionato all'interno della <locus>tabula VIr</locus><pc>.</pc> Un tempo parte del protocollo di imbreviatura di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> facente parte della <locus>serie 342</locus> <locus>nr. 5</locus> del <locus>c. 275r</locus></p>
+                        </physDesc>
+                            <history>
+                                <origin>
+                                    <p><persName ref="#Antlun"><forename>Antonio</forename><roleName type="nobility">conte</roleName> <roleName type="office">vescovo</roleName> di <placeName ref="#Lun">Luni</placeName></persName> revoca l' interdetto nei confronti di <placeName ref="#Sarz">Sarzana</placeName>, <placeName ref="#SantStef">Santo Stefano</placeName>, <placeName ref="#Ponz">Ponzano</placeName> e <placeName ref="#Bolan">Bolano</placeName> a seguito della pce con i Malaspina<pc>.</pc></p>
+                                </origin>
+                                <provenance>
+                                    <p>gi&#224; precedentemente conservato a <placeName ref="#Sarz">Sarzana</placeName>, presso l' <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie 342, <num type="cardinal" value="5">nr. 5</num>: imbreviature del notaio  <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>di Parente</surname> <surname>Stupio</surname></persName>, c.275<choice><abbr>r</abbr><expan>recto</expan></choice><pc>.</pc></p>
+                                </provenance>
+                            </history>
+                    </msPart>
+                    <msPart xml:id="ms148">
+                        <msIdentifier>
+                            <msName>148. 1306 ottobre 18, Castelnuovo (Sarzana)</msName>
+                        </msIdentifier>
+                        <head>Documento nr 148. 1306 ottobre 18, Castelnuovo (Sarzana)</head>
+                        <physDesc>
+                            <p>Costituito da bifogli e posizionato all'interno della <locus>tabula VIv</locus><pc>.</pc> Un tempo parte del protocollo di imbreviatura di <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>Stupio</surname></persName> facente parte della <locus>serie 342</locus> <locus>nr. 5</locus> del <locus>c. 275v</locus></p>
+                        </physDesc>
+                            <history>
+                                <origin>
+                                    <p><persName ref="#Antlun"><forename>Antonio</forename><roleName type="nobility">conte</roleName> <roleName type="office">vescovo</roleName> di <placeName ref="#Lun">Luni</placeName></persName>, adempiendo alla promessa fatta a <persName ref="#Dante"><forename>Dante</forename> di <surname>Alighiero</surname></persName> che in nome dei Malaspina ha stipulato con lui la pace, revoca le condanne emesse nei confronti di sei lunigianesi<pc>.</pc></p> 
+                                </origin>
+                                <provenance>
+                                    <p>gi&#224; precedentemente conservato a <placeName ref="#Sarz">Sarzana</placeName>, presso l' <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie 342, <num type="cardinal" value="5">nr. 5</num>: imbreviature del notaio  <persName ref="#GiovandiParen"><forename>Giovanni</forename> <surname>di Parente</surname> <surname>Stupio</surname></persName>, c.275<choice><abbr>v</abbr><expan>verso</expan></choice><pc>.</pc></p>
+                                </provenance>
+                            </history>
+                    </msPart>
+                </msDesc>
+
+            <listBibl xml:id="T144">
+                 <head>Testimoni del documento 144</head>
+                        <bibl xml:id="novl144">
+                            <title>Novelle letterarie</title>
+                            <author>
+                                <persName ref="#GL">
+                                    <forename>Giovanni</forename>
+                                    <surname>Lami</surname>
+                                </persName>
+                            </author>
+                            <pubPlace>Firenze</pubPlace>
+                            <date><num type="ordinal" value="1767">XXVIII</num></date>
+                            <ref>https://books.google.it/books?id=8uJaAAAAcAAJ</ref>
+                            <availability status="restricted">
+                                <licence><p>Dè superiori</p></licence>
+                            </availability>
+                            <biblScope unit="page" from="603" to="606">coll. 603-6</biblScope>
+                            <note>Da copia di <persName><forename>Giovanni</forename><forename>Antonio</forename><surname>Vivaldi</surname></persName>-non Nivaldi, come erroneamente stampato;</note>
+                        </bibl>
+
+                        <bibl xml:id="CDM144">
+                            <title xml:lang="la">Codex diplomaticus</title>
+                            <author><persName><surname>Maccioni</surname></persName></author>
+                            <date>1769</date>
+                            <pubPlace><placeName ref="#PI">Pisa</placeName></pubPlace>
+                            <biblScope unit="page" from="20" to="21">pp. 20-21</biblScope>
+                            <biblScope unit="volume"><num type="ordinal" value="14">XIV</num></biblScope>
+                            <note>Sempre da copia Vivaldi</note>
+                        </bibl>
+
+                        <bibl xml:id="DANTLEG144">
+                            <title>Dantis Alighieri legatio</title>
+                            <author>
+                                <persName ref="#GJW">   
+                                    <forename>George</forename>
+                                    <forename>John</forename>
+                                    <surname>Warren</surname>
+                                    <roleName type="nobility">lord</roleName> 
+                                    <addName>Vernon</addName> 
+                                </persName>
+                            </author>
+                            <publisher>Biblioteca Nazionale Centrale di Firenze</publisher>
+                            <date><num type="ordinal" value="1847">1847</num></date>
+                            <ref>https://www.google.it/books/edition/Dantis_Alighieri_legatio_pro_Francischin/Nm7kcxrlijgC?hl</ref>
+                            <biblScope unit="page" from="3" to="4"><num type="ordinal">pp. III-IV</num></biblScope>
+                            <note>Forse dall'originale</note>
+                        </bibl>
+                        
+                        <bibl xml:id="SVDD144">
+                            <title>Storia della vita di Dante</title>
+                            <author>
+                                <persName ref="#PIFR">   
+                                    <forename>Pietro</forename>
+                                    <surname>Fraticelli</surname>
+                                </persName>
+                            </author>
+                            <publisher>Barbèra Editore</publisher>
+                            <date><num type="cardinal" value="1861">1861</num></date>
+                            <biblScope unit="page" from="197" to="199">pp. 197-99 n.20</biblScope>
+                            <note>Da <persName ref="#GJW"><addName>Vernon</addName></persName></note>
+                        </bibl>
+                        
+                        <bibl xml:id="DANTPUBLIFE144">
+                            <title xml:lang="en">Dante's Public Life<num type="ordinal" value="1">I</num></title>
+                            <author>
+                                <persName ref="#GRC">   
+                                    <forename>George</forename>
+                                    <forename>Rice</forename>
+                                    <surname>Carpenter</surname>
+                                </persName>
+                            </author>
+                            <publisher>John Wilson and Son</publisher>
+                            <date><num type="cardinal" value="1891">1891</num></date>
+                            <biblScope unit="page" from="15" to="17">pp. 15-17</biblScope>
+                            <note>Da <persName ref="#GJW"><addName>Vernon</addName></persName></note>
+                        </bibl>
+                  
+                        <bibl xml:id="CDDBIPASS144">
+                            <title>Codice diplomatico dantesco</title>
+                            <editor ref="#GUIB">
+                                <persName>
+                                    <forename>Guido</forename>
+                                    <surname>Biagi</surname>
+                                </persName>
+                            </editor>
+                            <editor ref="#GILP">
+                                <persName>
+                                    <forename>Guiseppe</forename>
+                                    <forename>Lando</forename>
+                                    <surname>Passerini</surname>
+                                </persName>
+                            </editor>
+                            <date><num type="cardinal" value="1895">1895</num></date>
+                            <biblScope unit="volume"><num type="ordinal" value="7">disp. VII</num></biblScope>
+                            <biblScope unit="page" from="5" to="6">pp. 5-6</biblScope>
+                            <note>con riproduzione</note>
+                        </bibl>
+             
+                        <bibl xml:id="CDDPIAT144">
+                            <title>Codice diplomatico dantesco</title>
+                            <editor ref="#RENPIA">
+                                <persName>
+                                    <forename>Renato</forename>
+                                    <surname>Piattoli</surname>
+                                </persName>
+                            </editor>
+                            <date><num type="cardinal" value="1940">1940</num></date>
+                            <biblScope unit="volume"><num type="ordinal" value="98">nr. 98</num></biblScope>
+                            <biblScope unit="page" from="116" to="118">pp. 116-18</biblScope>
+                        </bibl>
+                </listBibl>
+                <listBibl xml:id="T145">
+                     <head>Testimoni del documento 145</head>
+    
+                        <bibl xml:id="novl145">
+                            <title>Novelle letterarie</title>
+                            <author>
+                                <persName ref="#GL">
+                                    <forename>Giovanni</forename>
+                                    <surname>Lami</surname>
+                                </persName>
+                            </author>
+                            <pubPlace>Firenze</pubPlace>
+                            <date><num type="ordinal" value="1767">XXVIII</num></date>
+                            <ref>https://books.google.it/books?id=8uJaAAAAcAAJ</ref>
+                            <availability status="restricted">
+                                <licence><p>Dè superiori</p></licence>
+                            </availability>
+                            <biblScope unit="page" from="610" to="617">coll. 610-17</biblScope>
+                            <note>non completa, da copia eseguita il <date when="22/09/1765">22 sett. 1765</date> dall’archivista <persName><forename>Giovanni</forename><forename>Antonio</forename><surname>Vivaldi</surname></persName> e inviatagli dal <persName ref="#Manfrmal"><roleName type="nobility">marchese</roleName><forename>Manfredi</forename><surname>Malaspina</surname> di <placeName ref="#Terross">Terrarossa</placeName> e <placeName ref="#Filat">Filattiera</placeName></persName></note>
+                        </bibl>
+                  
+                        <bibl xml:id="CDM145">
+                            <title>CDM</title>
+                            <author><persName><surname>Maccioni</surname></persName></author>
+                             <biblScope unit="page" from="21" to="24">pp. 21-24</biblScope>
+                             <biblScope unit="volume"><num type="ordinal" value="15">XV</num></biblScope>
+                             <note>non completa, sempre da copia Vivaldi</note>
+                        </bibl>
+
+
+                        <bibl xml:id="DANTLEG145">
+                            <title>Dantis Alighieri legatio</title>
+                            <author>
+                                <persName ref="#GJW">   
+                                    <forename>George</forename>
+                                    <forename>John</forename>
+                                    <surname>Warren</surname>
+                                    <roleName type="nobility">lord</roleName> 
+                                    <addName>Vernon</addName> 
+                                </persName>
+                            </author>
+                            <publisher>Biblioteca Nazionale Centrale di Firenze</publisher>
+                            <date><num type="ordinal" value="1847">1847</num></date>
+                            <ref>https://www.google.it/books/edition/Dantis_Alighieri_legatio_pro_Francischin/Nm7kcxrlijgC?hl</ref>
+                            <biblScope unit="page" from="5" to="7"><num type="ordinal">pp. V-VII</num></biblScope>
+                        </bibl>
+                  
+                        <bibl xml:id="SVDD145">
+                            <title>Storia della vita di Dante</title>
+                            <author>
+                                <persName ref="#PIFR">   
+                                    <forename>Pietro</forename>
+                                    <surname>Fraticelli</surname>
+                                </persName>
+                            </author>
+                            <publisher>Barbèra Editore</publisher>
+                            <date><num type="cardinal" value="1861">1861</num></date>
+                            <biblScope unit="page" from="199" to="204">pp. 199-204 n.21</biblScope>
+                            <note>completa e forse dall’originale (ma con alcune letture cattive da Maccione)</note>
+                        </bibl>
+ 
+                        <bibl xml:id="Pacesalv145">
+                            <title>Pace</title>
+                            <author>
+                                <persName>
+                                    <surname>Salvolini</surname>
+                                </persName>
+                            </author>
+                            <biblScope unit="page" from="75" to="76">pp. 75-76</biblScope>
+                            <biblScope unit="page" from="83" to="84">pp. 83-84</biblScope>
+                            <biblScope unit="page" from="92" to="93">pp. 92-93</biblScope>
+                        </bibl>
+
+                        <bibl xml:id="DANTPUBLIFE145">
+                            <title xml:lang="en">Dante's Public Life<num type="ordinal" value="1">I</num></title>
+                            <author>
+                                <persName ref="#GRC">   
+                                    <forename>George</forename>
+                                    <forename>Rice</forename>
+                                    <surname>Carpenter</surname>
+                                </persName>
+                            </author>
+                            <publisher>John Wilson and Son</publisher>
+                            <date><num type="cardinal" value="1891">1891</num></date>
+                            <biblScope unit="page" from="17" to="24">pp. 17-24</biblScope>
+                            <note>Da <persName ref="#GJW"><addName>Vernon</addName></persName></note>
+                        </bibl>
+        
+                        <bibl xml:id="CDDBIPASS145">
+                            <title>Codice diplomatico dantesco</title>
+                            <editor ref="#GUIB">
+                                <persName>
+                                    <forename>Guido</forename>
+                                    <surname>Biagi</surname>
+                                </persName>
+                            </editor>
+                            <editor ref="#GILP">
+                                <persName>
+                                    <forename>Guiseppe</forename>
+                                    <forename>Lando</forename>
+                                    <surname>Passerini</surname>
+                                </persName>
+                            </editor>
+                            <date><num type="cardinal" value="1895">1895</num></date>
+                            <biblScope unit="volume" from="7" to="8">disp. VII e VIII</biblScope>
+                            <biblScope unit="page" from="7" to="13">pp. 7-13</biblScope>
+                            <note>con riproduzione</note>
+                        </bibl>
+                        
+                        <bibl xml:id="CDDPIAT145">
+                            <title>Codice diplomatico dantesco</title>
+                            <editor ref="#RENPIA">
+                                <persName>
+                                    <forename>Renato</forename>
+                                    <surname>Piattoli</surname>
+                                </persName>
+                            </editor>
+                            <date><num type="cardinal" value="1940">1940</num></date>
+                            <biblScope unit="volume"><num type="ordinal" value="99">nr. 99</num></biblScope>
+                            <biblScope unit="page" from="118" to="125">pp. 118-25</biblScope>
+                        </bibl>
+                       
+                        <bibl  xml:id="Paccastel145">
+                            <title>La pace di Castelnuovo</title>
+                            <editor ref="#Edbert">
+                                <persName>
+                                    <forename>Emiliano</forename>
+                                    <surname>Bertin</surname>
+                                </persName>
+                            </editor>
+                            <date>2005</date>
+                            <publisher>Antenore</publisher>
+                            <biblScope unit="page"><num type="cardinal" value="4">pp. 4</num></biblScope>
+                            <note>parziale (limitata all’arenga, da <persName ref="#RENPIA"><surname>Piattoli</surname></persName>).</note>
+                        </bibl>
+                </listBibl>
+                <listBibl xml:id="T146">
+                     <head>Testimoni del documento 146</head>
+                       
+                        <bibl xml:id="CDDBIPASS146">
+                                <title>Codice diplomatico dantesco</title>
+                                <editor ref="#GUIB">
+                                    <persName>
+                                        <forename>Guido</forename>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>
+                                <editor ref="#GILP">
+                                    <persName>
+                                        <forename>Guiseppe</forename>
+                                        <forename>Lando</forename>
+                                        <surname>Passerini</surname>
+                                    </persName>
+                                </editor>
+                                <date><num type="cardinal" value="1895">1895</num></date>
+                                <biblScope unit="volume"><num type="ordinal" value="8">disp. VIII</num></biblScope>
+                                <biblScope unit="page"><num type="cardinal" value="14">pp. 14</num></biblScope>
+                        </bibl> 
+                </listBibl>
+                <listBibl xml:id="T147">
+                    <head>Testimoni del documento 147</head>
+                  
+                        <bibl xml:id="CDDBIPASS147">
+                                <title>Codice diplomatico dantesco</title>
+                                <editor ref="#GUIB">
+                                    <persName>
+                                        <forename>Guido</forename>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>
+                                <editor ref="#GILP">
+                                    <persName>
+                                        <forename>Guiseppe</forename>
+                                        <forename>Lando</forename>
+                                        <surname>Passerini</surname>
+                                    </persName>
+                                </editor>
+                                <date><num type="cardinal" value="1895">1895</num></date>
+                                <biblScope unit="volume"><num type="ordinal" value="8">disp. VIII</num></biblScope>
+                                <biblScope unit="page"><num type="cardinal" value="15">pp. 15</num></biblScope>
+                        </bibl>
+                </listBibl>
+                <listBibl xml:id="T148">
+                    <head>Testimoni del documento 148</head>
+        
+                        <bibl xml:id="CDDBIPASS148">
+                                <title>Codice diplomatico dantesco</title>
+                                <editor ref="#GUIB">
+                                    <persName>
+                                        <forename>Guido</forename>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>
+                                <editor ref="#GILP">
+                                    <persName>
+                                        <forename>Guiseppe</forename>
+                                        <forename>Lando</forename>
+                                        <surname>Passerini</surname>
+                                    </persName>
+                                </editor>
+                                <date><num type="cardinal" value="1895">1895</num></date>
+                                <biblScope unit="volume"><num type="ordinal" value="8">disp. VIII</num></biblScope>
+                                <biblScope unit="page"><num type="cardinal" value="16">pp. 16</num></biblScope>
+                        </bibl>
+                </listBibl>
+            </listBibl>
+            <listPerson>
+                <head>Lista persone</head>
+                <person xml:id="TD" sex="F" role="editor" age="67">
+                    <persName>
+                        <forename>Teresa</forename>
+                        <surname>De Robertis</surname>
+                    </persName>
+                </person>
+                <person xml:id="GM" sex="M" role="editor" age="53">
+                    <persName>
+                        <forename>Giuliano</forename>
+                        <surname>Milani</surname>
+                    </persName>
+                </person>
+                 <person xml:id="LR" sex="F" role="editor" age="55">
+                    <persName>
+                        <forename>Laura</forename>
+                        <surname>Regnicoli</surname>
+                    </persName>
+                </person>
+                <person xml:id="SZ" sex="M" role="editor" age="72">
+                    <persName>
+                        <forename>Stefano</forename>
+                        <surname>Zamponi</surname>
+                    </persName>
+                </person>
+                <person xml:id="WB" sex="M" role="encoder" age="24">
+                    <persName>
+                        <forename>William</forename>
+                        <surname>Brai</surname>
+                    </persName>
+                </person>
+                <person xml:id="GL" sex="M"> 
+                    <persName>
+                        <ref target="https://it.wikipedia.org/wiki/Giovanni_Lami"/>
+                        <forename>Giovanni</forename>
+                        <surname>Lami</surname>
+                    </persName>
+                    <birth>
+                        <date when="08/11/1697">8 Novembre 1697</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="06/02/1770">6 Febbraio 1770</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="GJW" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/george-john-warren-lord-vernon_%28Enciclopedia-Dantesca%29/"/>
+                        <forename>George</forename>
+                        <forename>John</forename>
+                        <surname>Warren</surname>
+                        <roleName type="nobility">lord</roleName> 
+                        <addName>Vernon</addName>
+                    </persName>
+                    <birth>
+                        <date when="1803">1803</date>
+                        <placeName>
+                            <district ref="#SH" type="house">Stapleford Hall</district>
+                            <region ref="#NOTT" type="commonwealth">Nottinghamshire</region>
+                            <country>Inghilterra</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1866">1866</date>
+                        <placeName>
+                            <district ref="#SUDH" type="house">Sudbury Hall</district>
+                            <region ref="#DRY" type="commonwealth">Derby</region>
+                            <country>Inghilterra</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="PIFR" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/george-john-warren-lord-vernon_%28Enciclopedia-Dantesca%29/"/>
+                        <forename>Pietro</forename>
+                        <surname>Fraticelli</surname>
+                    </persName>
+                    <birth>
+                        <date when="16/12/1803">16 Dicembre 1803</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="18/12/1866">1866</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="GRC" sex="M"> 
+                    <persName>
+                        <ref target="https://en.wikipedia.org/wiki/George_Rice_Carpenter"/>
+                        <forename>George</forename>
+                        <forename>Rice</forename>
+                        <surname>Carpenter</surname>
+                    </persName>
+                    <birth>
+                        <date when="25/10/1863">25 Ottobre 1863</date>
+                        <placeName>
+                            <settlement ref="#LAB" type="municipality">Labrador</settlement>
+                            <country>Canada</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="08/04/1909">8 Aprile 1909</date>
+                        <placeName>
+                            <settlement ref="#NWY" type="municipality">New York</settlement>
+                            <country>Stati Uniti</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="GUIB" sex="M"> 
+                    <persName>
+                        <ref target="https://it.wikipedia.org/wiki/Guido_Biagi"/>
+                        <forename>Guido</forename>
+                        <surname>Biagi</surname>
+                    </persName>
+                    <birth>
+                        <date when="29/01/1855">29 Gennaio 1855</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="06/01/1925">6 Gennaio 1925</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="GILP" sex="M"> 
+                    <persName>
+                        <ref target="https://it.wikipedia.org/wiki/Giuseppe_Lando_Passerini"/>
+                        <forename>Guiseppe</forename>
+                        <forename>Lando</forename>
+                        <surname>Passerini</surname>
+                    </persName>
+                    <birth>
+                        <date when="31/01/1858">31 Gennaio 1858</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="02/01/1932">6 Gennaio 1925</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="RENPIA" sex="M"> 
+                    <persName>
+                        <ref target="https://it.wikipedia.org/wiki/Renato_Piattoli"/>
+                        <forename>Renato</forename>
+                        <surname>Piattoli</surname>
+                    </persName>
+                    <birth>
+                        <date when="28/07/1906">28 Luglio 1906</date>
+                        <placeName>
+                            <settlement ref="#LUC" type="municipality">Lucca</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1974">1974</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="Manfrmal" sex="M"> 
+                    <persName>
+                        <ref target="https://library.leeds.ac.uk/special-collections/collection/1911"/>
+                        <roleName type="nobility">marchese</roleName>
+                        <forename>Manfredi</forename>
+                        <surname>Malaspina</surname> di 
+                        <placeName>
+                            <district ref="#Terross" type="fraction">Terrarossa</district>
+                        </placeName> e
+                        <placeName>
+                           <settlement ref="#Filat" type="municipality"> Filattiera</settlement>
+                        </placeName>
+                    </persName>
+                    <birth>
+                        <date>1720</date>
+                    </birth>
+                    <death>
+                        <date>1787</date>
+                    </death>
+                </person>
+                <person xml:id="Franmal" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/franceschino-malaspina_%28Dizionario-Biografico%29/"/>
+                        <roleName type="nobility">marchese</roleName>
+                        <forename>Franceschino</forename>
+                        <surname>Malaspina</surname> 
+                    </persName>
+                    <birth>
+                        <date>1275</date>
+                        <placeName>
+                            <settlement ref="#Mulaz" type="municipality">Mulazzo</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date>1320</date>
+                    </death>
+                </person>
+                <person xml:id="Edbert" sex="M">
+                    <persName>
+                        <forename>Emiliano</forename>
+                        <surname>Bertin</surname>
+                    </persName>
+                </person>
+                <person xml:id="Dante" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/dante-alighieri"/>
+                        <forename>Dante</forename>
+                        <surname>Alighieri</surname>
+                    </persName>
+                    <birth>
+                        <date>1265</date>
+                        <placeName>
+                            <settlement ref="#FI" type="municipality">Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date>1321</date>
+                        <placeName>
+                            <settlement ref="#RV" type="municipality">Ravenna</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+                <person xml:id="Antlun" sex="M"> 
+                    <persName>
+                        <ref target="https://it.wikipedia.org/wiki/Antonio_Nuvolone_da_Camilla"/>
+                        <forename>Antonio</forename>
+                        <surname>Nuvolone</surname>
+                        <surname>da Camilla</surname>
+                    </persName>
+                </person>
+                <person xml:id="GiovandiParen">
+                    <persName>
+                        <forename>Giovanni</forename>
+                        <surname>Di Parente</surname>
+                        <surname>Stupio</surname>
+                    </persName>
+                </person>
+                <person xml:id="Morroel" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/moroello-malaspina_%28Dizionario-Biografico%29/"/>
+                        <forename>Morroello</forename>
+                        <surname>Malaspina</surname>
+                        <addName>Il Giovane</addName>
+                    </persName>
+                    <birth>
+                        <date>1268</date>
+                    </birth>
+                    <death>
+                        <date when="08/04/1315">8 Aprile 1315</date>
+                    </death>
+                </person>
+                <person xml:id="Corrad" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/moroello-malaspina_%28Dizionario-Biografico%29/"/>
+                        <forename>Corrado</forename>
+                        <surname>Malaspina</surname>
+                        <addName>Il Giovane</addName>
+                    </persName>
+                </person>
+                <person xml:id="Guglielm" sex="M"> 
+                    <persName>
+                        <ref target="https://it.wikipedia.org/wiki/Guglielmo_Malaspina_degli_Obizzi"/>
+                        <forename>Guglielmo</forename>
+                        <surname>Malaspina</surname>
+                        <addName>degli Obizzi</addName>
+                    </persName>
+                </person>
+                <person xml:id="Percival" sex="M"> 
+                    <persName>
+                        <ref target="https://www.treccani.it/enciclopedia/percivalle-fieschi_%28Dizionario-Biografico%29/"/>
+                        <forename>Percivalle</forename>
+                        <surname>Fieschi</surname>
+                        <surname>Camilla</surname>
+                    </persName>
+                    <birth>
+                        <date><num type="ordinal" value="13">XIII</num></date>
+                        <placeName>
+                            <settlement ref="#GEN" type="municipality">Genova</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <placeName>
+                            <settlement ref="#RM" type="municipality">Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </person>
+            </listPerson>
+            <listPlace>
+                <head>Lista Luoghi</head>
+                <place xml:id="PI">
+                    <placeName>
+                        <settlement type="city">Pisa</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="Arcol">
+                    <placeName>
+                        <settlement type="city">Arcola</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="RM">
+                    <placeName>
+                        <settlement type="city">Roma</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="FI">
+                    <placeName>
+                        <settlement type="city">Firenze</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="SH">
+                    <placeName>
+                        <district type="house">Stapleford Hall</district>
+                    </placeName>
+                </place>
+                <place xml:id="NOTT">
+                    <placeName>
+                        <region type="commonwealth">Nottinghamshire</region>
+                    </placeName>
+                </place>
+                <place xml:id="SUDH">
+                    <placeName>
+                        <district type="house">Sudbury Hall</district>
+                    </placeName>
+                </place>
+                <place xml:id="DRY">
+                    <placeName>
+                        <region type="commonwealth">Derby</region>
+                    </placeName>
+                </place>
+                <place xml:id="LAB">
+                    <placeName>
+                        <settlement type="city">Labrador</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="NWY">
+                    <placeName>
+                        <settlement type="city">New York</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="LUC">
+                    <placeName>
+                        <settlement type="city">Lucca</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="Terraross">
+                    <placeName>
+                        <district type="fraction">Terrarossa</district>
+                    </placeName>
+                </place>
+                <place xml:id="Ponz">
+                    <placeName>
+                        <district type="fraction">Ponzano Superiore</district>
+                    </placeName>
+                </place>
+                <place xml:id="Bibola">
+                    <placeName>
+                        <district type="village">Bibola</district>
+                    </placeName>
+                </place>
+                  <place xml:id="Castelnu">
+                    <placeName>
+                        <district type="village">Castelnuovo Magra</district>
+                    </placeName>
+                </place>
+                <place xml:id="SantStef">
+                    <placeName>
+                        <settlement type="city">Santo Stefano</settlement>    
+                    </placeName>
+                </place>
+                 <place xml:id="Bolan">
+                    <placeName>
+                        <settlement type="city">Bolano</settlement>    
+                    </placeName>
+                </place>
+                <place xml:id="Filat">
+                    <placeName>
+                        <settlement type="city">Filattiera</settlement>    
+                    </placeName>
+                </place>
+                <place xml:id="Sarz">
+                    <placeName>
+                        <settlement type="city">Sarzana</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="Prat">
+                    <placeName>
+                        <settlement type="city">Prato</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="Mulaz">
+                    <placeName>
+                        <settlement type="city">Mulazzo</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="RV">
+                    <placeName>
+                        <settlement type="city">Ravenna</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="Lun">
+                    <placeName>
+                        <settlement type="city">Luni</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="SP">
+                    <placeName>
+                         <settlement type="city">La Spezia</settlement>
+                    </placeName>
+                </place>
+                 <place xml:id="GEN">
+                    <placeName>
+                         <settlement type="city">Genova</settlement>
+                    </placeName>
+                </place>
+                <place xml:id="Carcandul">
+                    <placeName>
+                         <district type="house">Carcandula</district>
+                    </placeName>
+                </place>
+                <place xml:id="Brina">
+                    <placeName>
+                         <district type="castel">Castello della Brina</district>
+                    </placeName>
+                </place>
+                <place xml:id="Sestgod">
+                    <placeName>
+                        <settlement type="city">Sesta Godano</settlement>    
+                    </placeName>
+                </place>
+                <place xml:id="Fosd">
+                    <placeName>
+                        <settlement type="city">Fosdinovo</settlement>    
+                    </placeName>
+                </place>
+                <place xml:id="Falc">
+                    <placeName>
+                        <settlement type="city">Falcinello</settlement>    
+                    </placeName>
+                </place>
+                <place xml:id="Carrar">
+                    <placeName>
+                        <settlement type="city">Carrara</settlement>    
+                    </placeName>
+                </place>
+            </listPlace>
+        </sourceDesc> 
+        </fileDesc> 
+        <encodingDesc>
+        <variantEncoding  method =" double-end-point " location =" external "/> 
+            <projectDesc> 
+                <p>File realizzato per il tirocinio universitario relativo alla codifica del codice diplomatico dantesco</p> 
+            </projectDesc> 
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text n="testo144">
+                <pb/>
+                <front>
+                    <head>Documento 144. <date when="06/10/1306">1306 Ottobre 6</date><pc>,</pc> <placeName ref="#Sarz">Sarzana</placeName></head>
+                    <div xml:lang="IT" type="preface"><p>Il <persName ref="#Franmal"><roleName type ="nobility">marchese</roleName> <forename>Franceschino</forename> <surname>Malaspina</surname></persName><pc>,</pc> nell'interesse proprio e di altri membri della famiglia<pc>,</pc> istituisce procuratore <persName ref="#Dante"><forename>Dante</forename> di <surname>Alighiero</surname></persName> a far pace con <persName ref="#Antlun"> <forename>Antonio</forename> <roleName type="office">vescovo</roleName> <roleName type="nobility">conte</roleName> di <placeName ref="#Lun">Luni</placeName></persName><pc>.</pc></p>
+                    </div>
+                    <div type="infmanuscript" xml:lang="IT">
+                    <p>ASSp, Archivio notarile, Pace di Dante, <hi rend="italic">tabula <num type="ordinal" value="1">I</num><choice><abbr>r</abbr><expan>recto</expan></choice>-<choice><abbr>v</abbr><expan>verso</expan></choice></hi>
+                       (gi&#224;, <placeName ref="#Sarz">Sarzana</placeName>, <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie <num>342</num>, <choice><abbr>nr. </abbr><expan> numero</expan></choice><num>5</num><pc type="colon">:</pc>
+                       imbreviature del <persName ref="#GiovandiParen"><roleName type="office">notaio</roleName> <forename>Giovanni</forename> di <surname>Parente</surname> <surname>Stupio</surname></persName>, c.<hi rend="italic"><num>270</num><choice><abbr>r</abbr><expan>recto</expan></choice>-<choice><abbr>v</abbr><expan>verso</expan></choice></hi>)<pc>.</pc></p>
+                    </div>
+                    <div type="BiblEdizioni" xml:lang="IT">
+                        <p>Edizioni:
+                        <listBibl>
+                            <bibl source="#novl144">
+                                <author>
+                                    <persName ref="#GL">
+                                        <surname>Lami</surname>
+                                    </persName>
+                                </author>
+                                in <title>Novelle letterarie</title>,
+                                to. <biblScope unit="volume"><num type="ordinal" value="28">XXVIII</num></biblScope> <date>1767</date>,
+                                coll. <biblScope unit="page" from="603" to="606">603-6</biblScope>
+                                <note>(da copia di <persName><forename>Giovanni</forename> <forename>Antonio</forename> <surname>Vivaldi</surname></persName>-non Nivaldi, come erroneamente stampato);</note>
+                            </bibl>
+                            <bibl source="#CDM144">
+                                 <author>
+                                    <persName>
+                                        <surname>Maccioni</surname>,
+                                    </persName>
+                                </author>
+                                <title><choice><abbr>CDM</abbr><expan> Codex diplomaticus</expan></choice></title>,
+                                <biblScope unit="page" from="20" to="21">pp. 20-21</biblScope>
+                                <biblScope unit="volume"><num type="ordinal" value="14"> nr. XIV</num></biblScope>
+                                <note>(sempre da copia Vivaldi);</note>
+                            </bibl>
+                            <bibl source="#DANTLEG144">
+                                <author>
+                                    <persName ref="#GJW">   
+                                        <addName>Vernon</addName>,
+                                    </persName>
+                                </author>
+                                <title>Dantis Alighieri legatio</title>,
+                                <biblScope unit="page" from="3" to="4"><num type="ordinal">pp. III-IV</num></biblScope>
+                                <note>(forse dall'originale);</note>
+                            </bibl>
+                            <bibl source="#SVDD144">
+                                <author>
+                                    <persName ref="#PIFR">   
+                                        <surname>Fraticelli</surname>,
+                                    </persName>
+                                </author>
+                                <title>Storia della vita di Dante</title>,
+                                <biblScope unit="page" from="197" to="199">pp. 197-99 n.20</biblScope>
+                                <note>(da Vernon)</note>;
+                            </bibl>
+                            <bibl source="#DANTPUBLIFE144">
+                                <author>
+                                    <persName ref="#GRC">   
+                                        <surname>Carpenter</surname>,
+                                    </persName>
+                                </author>
+                                <title xml:lang="en">Dante's Public Life<num type="ordinal" value="1">I</num></title>,
+                                <date><num type="cardinal" value="1891">1891</num></date>,
+                                <biblScope unit="page" from="15" to="17">pp. 15-17</biblScope>
+                                <note>(da Vernon)</note>;
+                            </bibl>
+                            <bibl source="CDDBIPASS144">
+                                <editor ref="#GUIB">
+                                    <persName>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>-
+                                <editor ref="#GILP">
+                                    <persName>
+                                        <surname>Passerini</surname>
+                                    </persName>
+                                </editor>,
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                disp. <biblScope unit="volume"><num type="ordinal" value="7">VII</num></biblScope>
+                                <biblScope unit="page" from="5" to="6">pp. 5-6</biblScope>
+                                <note>(con ripr.);</note>
+                            </bibl>
+                            <bibl source="#CDDPIAT144">
+                                <editor ref="#RENPIA">
+                                    <persName>
+                                        <surname>Piattoli</surname>
+                                    </persName>
+                                </editor>,
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                <biblScope unit="page" from="116" to="118">pp. 116-18</biblScope>
+                                <biblScope unit="volume"><num type="ordinal" value="98">nr. 98</num></biblScope>.
+                            </bibl>
+                        </listBibl>
+                        </p>
+                    </div>
+                </front>
+                <body>
+                    <div xml:lang="la" type="144">
+                        <pb />
+                    <!--Edizioni:
+                                *  Lami in Novelle letterarie, to. XXVIII 1767, coll. 603-6 (da copia di Giovanni Antonio Vivaldi-non Nivaldi, come erroneamente stampato); 
+                                * Maccioni, CDM, pp.20-21 nr.XIV (sempre da copia Vivaldi);
+                                * Vernon, Dantis Alighieri legatio, pp.III-IV (forse dall’originale);
+                                * Fraticelli, Storia della vita di Dante, pp.197-99 n.20 (da Vernon)h
+                                * Carpenter, Dante’s Public Life I, 1891, pp.15-17 (da Vernon)
+                                * Biagi-Passerini, CDD, disp. VII pp.5-6 (con ripr.)
+                                * Piattoli, CDD, pp.116-18 nr.98.-->
+                     
+                            <p n="p1"><milestone n="|1|" unit="paragraph"/>In nomine Domini, amen<pc>.</pc> Anno a nativitate eius <date when="1306">millesimo ccc<hi rend="apex">°</hi>VI<hi rend="apex">°</hi></date>, inditione 
+                            <num type="ordinal" value="4">IIII<hi  rend="apex">a</hi></num>, die <date when="--/10/06">VI<hi rend="apex">°</hi> octubris</date>, ante missam<pc>.</pc> </p>
+
+                            <p n="p2"><milestone n="|2|" unit="paragraph"/><persName ref="#Franmal"><addName type="epithet">Magnificus</addName> vir <addName type="honorific">dominus</addName> <forename>Francischinus</forename> <roleName type="nobility">marchio</roleName> <surname>Malaspina</surname></persName> fecit,
+                            constituit et ordinavit suum legitimum procuratorem, actorem, factorem et nuncium specialem <persName ref="#Dante"><forename>Dantem</forename> <surname>Alegerii</surname> de <placeName ref="#FI">Florentia</placeName></persName> ad pacem,
+                            sedationem, quietationem, remissionem et finem perpetuam recipiendam a venerabili
+                            in Christo patre et <persName ref="#Antlun"><addName type="honorific">domino</addName> <addName type="honorific">domino</addName> <forename>Antonio</forename>, Dei gratia <roleName type="office"><placeName ref="#Lun">Lunensi</placeName> episcopo</roleName> et <addName>comite</addName></persName>,
+                            dante et reddente pro se et suis subcessoribus et <placeName ref="#Lun">Lunensi</placeName> ecclesia et amicis, subditis
+                            et sequacibus suis, de omnibus et singulis iniuriis, guerris, inimiciciis, offensionibus,
+                            ince<supplied resp="#LR" reason="omitted-in-original">n</supplied>diis, dampnis, rebellionibus, vulneribus, homicidiis et quibuscumque aliis delictis seu enormitatibus perpetratis,
+                            tractatis vel contrattis actenus contra ipsum venerabilem patrem et <placeName ref="#Lun">Lunensem</placeName> ecclesiam vel homines et sequaces ipsius per 
+                            <anchor xml:id="anc1" />d<supplied resp="#LR" reason="support-damage">ictum dominum</supplied><hi xml:id="app1" class="app" rend="apex">(a)</hi><!--app con le diverse versioni rdg delle edizioni (vedere in fondo alla pagina)--> <persName ref="#Franmal"><forename>Francischinum</forename></persName> et <persName ref="#Morroel"><addName type="honorific">dominos</addName> <forename>Morroellum</forename></persName> et <persName ref="#Corrad"><forename>Con<supplied xml:id="sup1" resp="#LR" reason="support-damage">radinum</supplied></forename></persName><supplied xml:id="sup2" resp="#LR" reason="support-damage"> et fratres</supplied><join target="#sup1 #sup2" result="supplied" scope="root"/> marchiones Malaspine et amicos,
+                            sub<supplied resp="#LR" reason="support-damage">ditos et</supplied> sequace<supplied resp="#LR" reason="support-damage">s</supplied> ipsorum, de quibus ipsi procuratori <supplied resp="#LR" reason="support-damage">videbitur</supplied> et placebit<pc>;</pc> </p>
+                        
+                
+                            <p n="p3"><milestone n="|3|" unit="paragraph"/>et ad similem pa<supplied resp="#LR" reason="support-damage">cem, sedationem, quietationem, re</supplied>missionem et finem perpetuam <supplied resp="#LR" reason="support-damage">faciendam et reddendam ipsi</supplied> domino
+                            episcopo, pro se et suis subce<supplied resp="#LR" reason="support-damage">ssoribus et <placeName ref="#Lun">Lunensi</placeName> ecclesia et</supplied> amicis et sequacibus et
+                            subditi<supplied resp="#LR" reason="support-damage">s recipienti, procuratorio nomine</supplied>, ut dictum est, <supplied resp="#LR" reason="support-damage">pro i</supplied>pso <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>F<supplied xml:id="sup3" resp="#LR" reason="support-damage">rancischino</supplied></forename></persName><supplied xml:id="sup4" resp="#LR" reason="support-damage"> et</supplied><join target="#sup3 #sup4" result="supplied" scope="root"/> p<supplied resp="#LR" reason="support-damage">redictis domin</supplied>is <persName ref="#Morroel"><forename>Morroello</forename></persName>, <persName ref="#Corrad"><forename>Conradino</forename></persName> <supplied resp="#LR" reason="support-damage">et fratribus et eorum amicis, sub</supplied>ditis et sequacibus,
+                            de q<supplied resp="#LR" reason="support-damage">uibus ipsi procuratori placebit et vid</supplied>ebitur, ut est dictum, cum <supplied resp="#LR" reason="support-damage">illis</supplied> pa<supplied resp="#LR" reason="support-damage">ctis, conditionibus et caus</supplied>is, modis, tenoribus,
+                            pro<supplied resp="#LR" reason="support-damage">missionibus, penis et obliga</supplied>tionibus de quibus ipsi <supplied resp="#LR" reason="support-damage">procuratori videbitur</supplied><pc>;</pc> </p>
+                        
+                        
+                            <p n="p4"><milestone n="|4|" unit="paragraph"/>et specialiter ad promictendum pro ipso <persName ref="#Frenmal"><addName type="honorific">domino</addName> <forename>Francischino</forename></persName> et ipsum <persName ref="#Franmal"><addName type="honorific">dominum</addName> <forename>Francischinum</forename></persName> ad illam penam,
+                            que sibi videbitur et sicut <anchor xml:id="anc2" />voluerit,<hi xml:id="app2" class="app" rend="apex">(b)</hi><!--da collegare ai testimoni--> obligandum perpetuo et ad tempus quod ipse <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename></persName> sic faciet et curabit quod <persName ref="#Corrad"><addName type="honorific">dominus</addName> <forename>Conradinus</forename></persName>
+                            predittus retificabit et approbabit pro se et fratribus suis omnia et singula facta, 
+                            gesta, promissa et procurata per ipsum <persName ref="#Dante"><forename>Dantem</forename> <addName>procuratorem</addName></persName> pro ipso <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>Francischino</forename></persName> et ipsius nomine,
+                            cum omnibus penis et obligationibus que per ipsum <persName ref="#Dante"><forename>Dantem</forename></persName> fuerint facte, promisse vel stipulate<pc>.</pc> </p>
+                        
+                        
+                            <p n="p5"><milestone n="|5|" unit="paragraph"/>Item ad omnia patta, promissiones, stipulationes, obligationes, exceptiones et renunciationes faciendum et recipiendum
+                            prout ipsi procuratori in omnibus videbitur et placebit<pc>.</pc> </p>
+                        
+                            <p n="p6"><milestone n="|6|" unit="paragraph"/>Et generaliter ad omnia alia et singula facienda, gerenda, procuranda et exercenda que in predictis et circa
+                            predicta seu ab ipsis dependentibus, coherentibus et connessis fuerint uctilia et necessaria et que ipse <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename></persName> facere, gerere et promictere posset si 
+                            presens esset, ita quod eius absentia nichil impediat seu prorsus ledat<pc>.</pc> </p>
+                        
+                        
+                            <p n="p7"><milestone n="|7|" unit="paragraph"/>Dans ditto suo procuratori in predictis omnibus et singulis plenum,
+                            liberum, speciale et generale mandatum cum plena, libera et generali totorum bonorum administratione<pc>;</pc> rata,
+                            grata et firma perpetuo habiturus omnia et singula que per ipsum <persName ref="#Dante"><forename>Dantem</forename> <addName>procuratorem</addName></persName> in predictis et circa predicta et ab ipsis dependentibus seu ipsis coherentibus et
+                            connessis fuerint facta, gesta, promissa, stipulata et procurata, sub obligatione bonorum suorum <supplied resp="#LR" reason="support-damage">prese</supplied>ntium et fucturorum<pc>.</pc> </p>
+                        
+                        <lb />
+                            <p n="p8"><milestone n="|8|" unit="paragraph"/><supplied xml:id="sup5" resp="#LR" reason="support-damage">Actum </supplied><placeName ref="#Sarz"><supplied xml:id="sup6" resp="#LR" reason="support-damage">S</supplied><join target="#sup5 #sup6" result="supplied" scope="root"/>arzane</placeName>, in platea <placeName ref="#Carcandul">Carcandule</placeName>,
+                            pre<supplied xml:id="sup7" resp="#LR" reason="support-damage">sentibus </supplied><persName ref="#Guglielm"><addName><supplied xml:id="sup8" resp="#LR" reason="support-damage"><anchor xml:id="anc3" />fratre</supplied><supplied xml:id="sup9"  resp="#LR" reason="support-damage"><hi xml:id="app3" class="app" rend="apex"> (c)</hi> </supplied></addName> <forename><supplied xml:id="sup10" resp="#LR" reason="support-damage">Gui</supplied><join target="#sup7 #sup8 #sup9 #sup10" result="supplied" scope="root" />ll<supplied xml:id="sup11" resp="#LR" reason="support-damage">elmo </supplied></forename><surname><supplied xml:id="sup12" resp="#LR" reason="support-damage">M</supplied><join target="#sup11 #sup12" result="supplied" scope="root"/>alaspina</surname></persName> ordinis Minorum,
+                            <persName><forename><supplied resp="#LR" reason="support-damage">Bartolo</supplied>meo</forename><surname><anchor xml:id="anc4" /><gap reason="illegible" agent="damage"/>egia<hi xml:id="app4" class="app" rend="apex">(d)<!--inserire variazione d--></hi></surname> <roleName type="military">milite</roleName> de <supplied xml:id="sup13" resp="#LR" reason="support-damage"><placeName ref="#LUC">Luca</placeName></supplied></persName><supplied xml:id="sup14" resp="#LR" reason="support-damage">, <persName><addName type="honoryfic">domino</addName> <surname>Tomasi</surname></persName></supplied><join target="#sup13 #sup14" result="supplied" scope="root"/>
+                            no iudice  filio Parentis St<supplied resp="#LR" reason="support-damage">upii de <placeName ref="#Sarz">Sarzana</placeName>, testibus ad hec ro</supplied>gatis et vocatis<pc>.</pc></p>
+                    </div>
+                </body>
+                <back>
+                    <listApp type="apparato144">
+                        <app n="a" from="#anc1" to="#app1">
+                            <lem resp="#LR">dictum dominum</lem>
+                                <rdgGrp type="substantive">
+                                    <rdg source="#CDM144">dominum dominum</rdg>
+                                    <rdg source="#DANTLEG144">dominum dominum</rdg>
+                                    <rdg source="#SVDD144">dominum dominum</rdg>
+                                </rdgGrp>
+                        </app>
+                        <app n="b" from="#anc2" to="#app2">
+                            <lem resp="#LR">voluerit</lem>
+                            <rdg type="substantive">valuerit</rdg>
+                        </app>
+                        <app n="c" from="#anc3" to="#app3">
+                            <lem resp="#LR">fratre</lem>
+                            <rdgGrp type="substantive">
+                                    <rdg source="#novl144"><choice><abbr>ven.</abbr><expan>venerabilem</expan></choice> fratre</rdg>
+                                    <rdg source="#CDM144"><choice><abbr>ven.</abbr><expan>venerabilem</expan></choice> fratre</rdg>
+                                    <rdg source="#DANTLEG144"><choice><abbr>ven.</abbr><expan>venerabilem</expan></choice> fratre</rdg>
+                                    <rdg source="#SVDD144"><choice><abbr>ven.</abbr><expan>venerabilem</expan></choice> fratre</rdg>
+                            </rdgGrp>
+                        </app>
+                        <app n="d" from="#anc4" to="#app4">
+                            <lem resp="#LR"><gap reason="illegible" agent="damage"/>egia</lem>
+                            <rdgGrp type="orthographic">
+                                    <rdg source="#novl144"><persName><surname>Taneregia</surname></persName></rdg>
+                                    <rdg source="#CDM144"><persName><surname>Taneregia</surname></persName></rdg>
+                                    <rdg source="#DANTLEG144"><persName><surname>Taneregia</surname></persName></rdg>
+                                    <rdg source="#SVDD144"><persName><surname>Taneregia</surname></persName></rdg>
+                                    <note><hi rend="italic">ma dai tratti che si intravedono la lezione non è plausibile</hi></note>
+                            </rdgGrp>
+                        </app>
+                    </listApp>
+                </back>
+            </text>
+    
+            <text n="testo145">
+                <front>
+                    <head>Documento nr. 145  1306 ottobre 6, Castelnuovo (Sarzana)</head>
+                    <div xml:lang="IT" type="preface"><p>Pace tra <persName ref="#Antlun"><forename>Antonio</forename> <roleName type="office">vescovo</roleName> <roleName type="nobility">conte</roleName> di <placeName ref="#Lun">Luni</placeName></persName> e <persName ref="#Franmal"><forename>Franceschino</forename> <surname>Malaspina</surname></persName>, che agisce anche nell'interesse di altri membri della famiglia, rappresentato da <persName ref="#Dante"><forename>Dante</forename> <surname>di Alighiero</surname></persName><pc>.</pc></p></div>
+                    <div type="infmanuscript" xml:lang="IT">
+                    <p>ASSp, Archivio notarile, Pace di Dante, <hi rend="italic">tabulae <num type="ordinal" value="2">II</num><choice><abbr>r</abbr><expan>recto</expan></choice>-<num type="ordinal" value="5">V</num><choice><abbr>r</abbr><expan>recto</expan></choice></hi>
+                       (gi&#224;, <placeName ref="#Sarz">Sarzana</placeName>, <choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie <num>342</num>, <choice><abbr>nr.</abbr><expan>numero</expan></choice><num>5</num>, cc.<hi rend="italic"><num>271</num><choice><abbr>r</abbr><expan>recto</expan></choice>-<num>274</num><choice><abbr>v</abbr><expan>verso</expan></choice></hi>),
+                       un tempo parte del protocollo di imbreviature del <persName ref="#GiovandiParen"><roleName type="office">notaio</roleName> <forename>Giovanni</forename> di <surname>Parente</surname> <surname>Stupio</surname></persName><pc>.</pc></p>
+                    </div> 
+                    <div type="BiblEdizioni">
+                        <p>Edizioni:
+                        <listBibl>
+                            <bibl source="#novl145">
+                                <author>
+                                    <persName ref="#GL">
+                                        <surname>Lami</surname>
+                                    </persName>
+                                </author>
+                                in <title>Novelle letterarie</title>,
+                                to. <biblScope unit="volume"><num type="ordinal" value="28">XXVIII</num></biblScope> <date>1767</date>,
+                                coll. <biblScope unit="page" from="610" to="617">610-17</biblScope>,
+                                <note>non completa, da copia eseguita il <date when="22/09/1765">22 sett. 1765</date> dall’archivista <persName><forename>Giovanni</forename> <forename>Antonio</forename> <surname>Vivaldi</surname></persName> e inviatagli dal <persName ref="#Manfrmal"><roleName type="nobility">marchese</roleName> <forename>Manfredi</forename> <surname>Malaspina</surname> di <placeName ref="#Terross">Terrarossa</placeName> e <placeName ref="#Filat">Filattiera</placeName></persName></note>;
+                            </bibl>
+                            <bibl source="#CDM145">
+                                <author>Maccioni</author>,
+                                <title>CDM</title>,
+                                <biblScope unit="page" from="21" to="24">pp. 21-24</biblScope>
+                                <biblScope unit="volume"><num type="ordinal" value="15">nr. XV</num></biblScope>,
+                                <note>non completa, sempre da copia Vivaldi</note>;
+                            </bibl>
+                            <bibl source="#DANTLEG145">
+                                <author>
+                                    <persName ref="#GJW">   
+                                        <addName>Vernon</addName> 
+                                    </persName>
+                                </author>,
+                                <title>Dantis Alighieri legatio</title>,
+                                <biblScope unit="page" from="5" to="12"><num type="ordinal">pp. V-XII</num></biblScope>,
+                                e
+                            </bibl>
+                            <bibl source="#SVDD145">
+                                <author>
+                                    <persName ref="#PIFR">   
+                                        <surname>Fraticelli</surname>,
+                                    </persName>
+                                </author>
+                                <title>Storia della vita di Dante</title>,
+                                <biblScope unit="page" from="199" to="204">pp. 199-204 n.21</biblScope>,
+                                <note>completa e forse dall’originale (ma con alcune cattive letture da Maccioni);</note>
+                            </bibl>
+                            <bibl source="#Pacesalv145">
+                                <author>
+                                    <persName>
+                                        <surname>Salvolini</surname>,
+                                    </persName>
+                                </author>
+                                <title>Pace</title>,
+                                <biblScope unit="page" from="75" to="76">pp. 75-76</biblScope>,
+                                <biblScope unit="page" from="83" to="84">83-84</biblScope>,
+                                <biblScope unit="page" from="92" to="93">92-93</biblScope>;
+                            </bibl>
+                            <bibl source="#DANTPUBLIFE145">
+                                <author>
+                                    <persName ref="#GRC">   
+                                        <surname>Carpenter</surname>,
+                                    </persName>
+                                </author>
+                                <title xml:lang="en">Dante's Public Life <num type="ordinal" value="1">I</num></title>,
+                                <biblScope unit="page" from="17" to="24">pp. 17-24</biblScope>
+                                <note>(da <persName ref="#GJW"><addName>Vernon</addName></persName>);</note>
+                            </bibl>
+                            <bibl source="#CDDBIPASS145">
+                                <editor ref="#GUIB">
+                                    <persName>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>-
+                                <editor ref="#GILP">
+                                    <persName>
+                                        <surname>Passerini</surname>,
+                                    </persName>
+                                </editor>
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                <biblScope unit="volume" from="7" to="8">disp. VII e VIII</biblScope>      
+                                <biblScope unit="page" from="7" to="13">pp. 7-13</biblScope>
+                                <note>(con ripr.)</note>;
+                            </bibl>
+                            <bibl source="#CDDPIAT145">
+                                <editor ref="#RENPIA">
+                                    <persName>
+                                        <surname>Piattoli</surname>,
+                                    </persName>
+                                </editor>
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                <biblScope unit="page" from="118" to="125">pp. 118-25</biblScope>
+                                <biblScope unit="volume"><num type="ordinal" value="99">nr. 99</num></biblScope>;
+                            </bibl>
+                            <bibl source="#Paccastel145">
+                                <editor ref="#Edbert">
+                                    <persName>
+                                        <surname>Bertin</surname>,
+                                    </persName>
+                                </editor>
+                                <title>La pace di Castelnuovo</title>,
+                                <biblScope unit="page"><num type="cardinal" value="4">pp. 4</num></biblScope>,
+                                 <note>parziale (limitata all’arenga, da <persName ref="#RENPIA"><surname>Piattoli</surname></persName>).</note>
+                            </bibl>
+                        </listBibl> 
+                        </p>
+                    </div>              
+                </front>
+                <body>
+                    <div xml:lang="la" type="145">
+                        <pb />
+                    <!--Assp, Archivio notarile, Pace di Dante, tabulae IIr-Vr (già Sarzana, Arch. Notarile, serie 342, nr.5,
+                        cc. 271r-274v), un tempo parte del protocollo di imbreviatura del notaio Giovanni di Parente Stupio.
+                        Per le condizioni dell’orig. e per le integrazioni delle lacune vd. doc. 144.
+                   
+                                * Lami in Novelle letterarie, to. XXVIII 1767, coll. 610-17, non completa, da copia eseguita il 22 sett. 1765 dall’archivista Giovanni Antonio Vivaldi e inviatagli dal marchese Manfredi Malaspina di Terrarossa e Filattiera; 
+                                * Maccioni, CDM, pp.21-24 nr.XV, non completa, sempre da copia Vivaldi;
+                                * Vernon, Dantis Alighieri legatio, pp. V-XII, e Fraticelli, Storia della vita di Dante, pp. 199-204 n.21, completa e forse dall’originale (ma con alcune letture cattive da Maccione);
+                                * Salvolini, Pace, pp.75-76, 83-84, 92-93;
+                                * Carpenter, Dante’s Public life I, pp.17-24 (da Vernon);
+                                * Biagi-Passerini, CDD, disp VII e VIII pp.7-13 (con ripr.);
+                                * Piattoli, CDD, pp. 118-25 nr.99;
+                                * Bertin, La pace di Castelnuovo, p.4, parziale (limitata all’arenga, da Piattoli).-->
+
+                            <p n="p1"><milestone n="|1|" unit="paragraph"/>In nomine Domini, amen<pc>.</pc> Anno a nativitate eius <date when="1306">millesimo ccc<hi rend="apex">°</hi>VI<hi rend="apex">°</hi></date>, inditione
+                            <num type="ordinal" value="4">IIII<hi rend="apex">a</hi></num>, die <date when="--/10/06"><num type="cardinal" value="6">VI</num><hi rend="apex">°</hi> octubris</date>, in hora <num type="ordinal" value="3">tertia</num><pc>.</pc> </p>
+                    
+                            <p n="p2"><milestone n="|2|" unit="paragraph"/>Diucius diabolica exsuperante potencia, inter <persName ref="#Antlun"><addName type="honorific">venerabilem patrem</addName> et <addName type="honorific">dominum dominum</addName> <forename>Antonium</forename>, Dei gratia <placeName ref="#Lun">Lunensem</placeName> <roleName type="office">episcopum</roleName> et <roleName>comitem</roleName></persName>,
+                            et magnificos viros et <persName ref="#Morroel"><addName type="honorific">excelsos dominus</addName> <forename>Morroellum</forename></persName>,
+                            <persName ref="#Franmal"><forename>Francischum</forename></persName>, <persName ref="#Corrad"><forename>Conradinum</forename></persName> et fratres marchiones Malaspina, guerris, inimiciciis odiisque
+                            subortis, ex quibus homicidia, vulnera, cedes, incendia, vasta, dampna et pericula
+                            plurima sunt secuta ac provincia <placeName ref="#Lun">Lunexane</placeName> diversimode lacerata,
+                            prefati domini episcopus et marchiones, summi Patris inherentes exemplo suis dicentis apostolis <cit><quote>&#60;&#60;Pacem meam do vobis, pacem meam relinquo vobis&#62;&#62;</quote><bibl><title>Dal Vangelo secondo Giovanni</title><author>San Giovanni</author></bibl></cit>, <anchor xml:id="anc5" />eundenque<!--da mettere il testimone--><hi xml:id="app5" class="app" rend="apex">(a)</hi> effectum operis
+                            amplexantes mediante tractatu venerabilis et devoti viri domini <persName ref="#Guglielm"><addName>fratris</addName> <forename>Guillielmi</forename>
+                            <surname>Malaspina</surname></persName> et <persName><addName>fratris</addName> <forename>Guillielmi</forename> de <placeName ref="#Sestgod">Godano</placeName></persName> sanctissimi ordinis fratrum Minorum,
+                            attendentes etiam quod omni regno desciderabilis debet esse tranquilitas,
+                            in qua populi proficiunt et gentium uctilitas custoditor,
+                            que bonarum est artium decora mater, mortalium genus reparabili subcessione multiplicat, facultates protendit, mores
+                            excolit vixque quante sit virtutis agnoscitur, in eorum amicorum,
+                            sequacium et subditorium occiosa tranquilitate et pacis amenitate placida gloriantes, excelsi Salvatoris
+                            gratia illustranti ad infrascripta<supplied reason="omitted-in-original">m</supplied> pacem et veram et perpetuam concordiam devenerunt, videlicet.</p>
+    
+                        <lb />
+    
+                            <p n="p3"><milestone n="|3|" unit="paragraph"/>Quod antedittus <persName ref="#Antlun"><addName type="honorific">venerabilis pater dominus</addName> <forename>Antonius</forename> <placeName ref="#Lun">Lunensis</placeName> <roleName type="office">episcopus</roleName> et
+                            <roleName type="nobility">comes</roleName></persName>, pro se et <placeName ref="#Lun">Lunensi</placeName> ecclesia et suis sequacibus et hominibus, videlicet nobilibus
+                            de <placeName ref="#Fosd">Fosdenova</placeName>, <persName><forename>Pucio</forename></persName> et <persName><forename>Francisco</forename> <surname>de la Mu<supplied resp="#TD" reason="support-damage">sc</supplied>h<supplied resp="#TD" reason="support-damage">a</supplied></surname></persName>, filiis condam <persName><forename>Facii</forename> de <placeName ref="#Falc">Falcinello</placeName></persName>,
+                            et hominibus terra<supplied resp="#TD" reason="support-damage">rum et ca</supplied>strorum <placeName ref="#Lun">Lunensis</placeName> ecclesie et comitatus et ad ipsum
+                            <supplied xml:id="sup15" resp="#TD" reason="support-damage">dominum episcopum et </supplied><placeName ref="#Lun"><supplied xml:id="sup16" resp="#TD" reason="support-damage">Lunen</supplied><join target="#sup15 #sup16" result="supplied" scope="root"/>sem</placeName> ecclesiam pertinentibus, comuniter vel p<supplied resp="#TD" reason="support-damage">rivatim</supplied> reddidit et fecit <persName ref="#Dante"><forename>Danti</forename> <surname>A<supplied resp="#TD" reason="support-damage">ege</supplied>rii</surname> de <placeName ref="#FI">F<supplied xml:id="sup17" resp="#TD" reason="support-damage">lorentia</supplied></placeName></persName><supplied xml:id="sup18" resp="#TD" reason="support-damage">, procuratori</supplied><join target="#sup17 #sup18" result="supplied" scope="root"/> <persName ref="#Franmal"><addName type="honorific">domini</addName> <forename>Francischini</forename>
+                            <roleName type="nobility">marchionis</roleName> <supplied xml:id="sup19" resp="#TD" reason="support-damage">Malaspina</supplied></persName><supplied xml:id="sup20" resp="#TD" reason="support-damage"> predicti ad infrascripta</supplied><join target="#sup19 #sup20" result="supplied" scope="root"/> specialiter constituto, prout<hi rend="apex">(c)</hi> constat publico <supplied resp="#TD" reason="support-damage">instrumento scripto manu</supplied> <anchor xml:id="anc6" />mei<hi xml:id="app6" class="app" rend="apex">(b)</hi><!--var testual--> <persName><forename>Iohannis</forename> <surname>Parentis</surname></persName> notarii infrascripti
+                            de <placeName ref="#Sarz">S<supplied xml:id="sup21" resp="#TD" reason="support-damage">arzana</supplied></placeName><supplied xml:id="sup22" resp="#TD" reason="support-damage"> in presenti millesimo, inditione</supplied><join target="#sup21 #sup22" result="supplied" scope="root"/> et die, in hora <num type="ordinal" value="1">prima</num>, <supplied resp="#TD" reason="support-damage">recipienti procuratorio</supplied> nomine pro ipso <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>Francischino</forename></persName> et dicto <supplied resp="#TD" reason="support-damage">nomine, de ipsius</supplied> <persName ref="#Franmal"><addName type="honorific">domini</addName>
+                            <forename>Francischini</forename></persName> speciali mandato, <supplied resp="#TD" reason="support-damage">pro <persName ref="#Corrad"><addName type="honorific">domino</addName> <forename>Conradino</forename></persName> filio quondam domini</supplied> <persName><forename>Oppecini</forename> <roleName type="nobility">marchionis</roleName> <surname><supplied xml:id="sup23" resp="#TD" reason="support-damage">Malaspina</supplied></surname></persName><supplied xml:id="sup24" resp="#TD" reason="support-damage"><pc>;</pc></supplied> </p>
+                 
+                            <p n="p4"><milestone n="|4|" unit="paragraph"/><supplied xml:id="sup25" resp="#TD" reason="support-damage">pro quo <persName ref="#Corrad"><addName type="honorific">domino</addName> <forename>Conradino</forename></persName> dictus</supplied><join target="#sup23 #sup24 #sup25" result="supplied" scope="root"/>
+                            <persName ref="#Dante"><forename>Dante</forename> <roleName>procurator</roleName></persName>, procuratorio n<supplied resp="#TD" reason="support-damage">omine dicti <persName ref="#Franmal"><addName type="honorific">domine</addName> <forename>Francischini</forename></persName></supplied>, promisit quod omnia suprascripta
+                            et infrascripta <supplied resp="#TD" reason="support-damage">pro dictis</supplied> fratribus suis infra <num type="cardinal" value="15">XV</num> dies a c<supplied resp="#TD" reason="support-damage">elebratione presentis</supplied>
+                            contractus ratificabit approbabit, et firma et rata habebit, tenebit et observabit,
+                            et pro ipsis omnibus attendendis et observandis promittet et se obligabit per modum
+                            legitimum et sicut ipse <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName>, pro sua parte, in presenti contractu promittit et se obligat<pc>;</pc> </p>
+                    
+                            <p n="p5"><milestone n="|5|" unit="paragraph"/>et pro <persName ref="#Morroel"><addName type="honorific">domino</addName> <forename>Morroello</forename> <roleName type="nobility">marchione</roleName> <surname>Malaspine</surname></persName> predicto, pro
+                            quo idem <persName ref="#Dante"><forename>Dante</forename></persName>, dicto procuratorio nomine <persName ref="#Franmal"><addName type="honorific">domini</addName> <forename>Francischini</forename></persName>, promisit quod
+                            ipse <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename></persName> inducet, si poterit,
+                            ipsus <persName ref="#Morroel"><addName type="honorific">dominum</addName> <forename>Morroellum</forename></persName> ad omnia suprascripta et infrascripta ratificanda et firma tenenda,
+                            ut et supra et infra promictet et se obligabit <persName ref="Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName> antedictus<pc>;</pc> </p>
+                    
+                            <p n="p6"><milestone n="|6|" unit="paragraph"/>recipienti etiam pro omnibus et singulis hominibus terrarum ipsorum dominorum marchionum et sequacium eorundem,
+                            videlicet parte ipsorum dominorum marchionum de <placeName ref="#Sarz">Sarzana</placeName> et
+                            castro <placeName ref="#Sarz">Sarzane</placeName>, comune et hominibus de <placeName ref="#Carrar">Carraria</placeName>,
+                            comune et hominibus de <placeName ref="#Ponz">Punzano</placeName>, comune et hominibus de <placeName ref="#Bibola">Bibola</placeName>, <anchor xml:id="anc7" />parte<hi xml:id="app7" class="app" rend="apex">(c)</hi><!--variaz testuale--> de <placeName ref="#SantStef">Sancto Stephano</placeName> et <placeName ref="#Bolan">Bolano</placeName>,
+                            veram et perpetuam pacem, remissionem, quietationem et finem de omnibus et singulis et
+                            pro omnibus et singulis offensis, guerris, inimiciciis, offensionibus, incendiis, dampnis,
+                            rebellionibus, vulneribus, homicidiis et quibuscumque aliis delictis seu enormitatibus perpetratis, tractatis vel contattis attenus contra ipsum venenerabilem 
+                            patrem et <placeName ref="#Lun">Lunensem</placeName> ecclesiam vel homines et sequaces ipsius superius nominatos<pc>.</pc> </p>
+                      
+                            <p n="p7"><milestone n="|7|" unit="paragraph"/>Et e converso <persName ref="#Dante"><forename>Dante</forename></persName> predictus procurator,
+                            procuratorio nomine <supplied resp="#TD" reason="support-damage">pro ipso</supplied> <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>Francischino</forename> <roleName type="nobility">marchione</roleName></persName>,
+                            nomine et vice <persName ref="#Morroel"><supplied xml:id="sup26" resp="#TD" reason="support-damage"><addName type="honorific">dominorum</addName> </supplied><forename><supplied xml:id="sup27" resp="#TD" reason="support-damage">M</supplied><join target="#sup26 #sup27" result="supplied" scope="root"/>orroelli</forename></persName> 
+                            et <persName ref="#Corrad"><forename>Conradini</forename> <roleName type="nobility">marchionum</roleName></persName> predictorum, <supplied resp="#TD" reason="support-damage">pro quibus</supplied> dictus procurator promittit de rato ut
+                            supra <supplied resp="#TD" reason="support-damage">et pro omnibus eo</supplied>rum sequacibus,
+                            videlicet hominibus terrarum <supplied resp="#TD" reason="support-damage">supradictorum ips</supplied>orum dominorum marchionum et parte <supplied resp="#TD" reason="support-damage">ipsorum de <placeName ref="#Sarz">Sarzana</placeName></supplied> et castro,
+                            comune et hominibus de <placeName ref="#Carrar">Carraria</placeName>, comune <supplied xml:id="sup28" resp="#TD" reason="support-damage">et hominibus de </supplied><placeName ref="#Ponz"><supplied xml:id="sup29" resp="#TD" reason="support-damage">Ponz</supplied><join target="#sup28 #sup29" result="supplied" scope="root"/>ano</placeName>, comune et
+                            hominibus de <placeName ref="#Bibola">Bibola</placeName>, <supplied resp="#TD" reason="support-damage">parte de</supplied> <placeName ref="SantStef">Sancto Stephano</placeName> et <placeName ref="#Bolan">Bolano</placeName>, fecit et reddidit <supplied resp="#TD" reason="support-damage">dicto</supplied>
+                            venerabili patri, recipienti pro se <supplied resp="#TD" reason="support-damage">et <placeName ref="#Lun">Lunensi</placeName> ecclesia et ominibus et</supplied>
+                            singulis suis sequacibus suprascriptis, <supplied resp="#TD" reason="support-damage">veram et perpetuam</supplied> pacem de omnibus et singulis 
+                            predictis <supplied resp="#TD" reason="support-damage">et quibuslibet exce</supplied>ssibus et offensionibus<pc>;</pc> et in signum vere et <supplied resp="#TD" reason="support-damage">perpetue pacis</supplied>
+                            dictus <persName ref="#Antlun"><addName type="honorific">venerabilis pater dominus</addName> <roleName type="office">episcopus</roleName></persName> et <persName ref="#Dante">Dante</persName> predictus sese ad invicem osculantes<pc>.</pc> </p>
+
+                            <p n="p8"><milestone n="|8|" unit="paragraph"/>Hoc atto de comuni concordia predictorum quod idem <persName ref="#Antlun"><addName type="honorific">venerabilis pater
+                            dominus</addName> <roleName type="office">episcopus</roleName></persName> debeat et teneatur amicos et sequaces dominorum marchionum
+                            predittorum tractare, tenere et habere, ab hodie in antea, pro veris, legitimis et propriis amicis suis; et e converso prefati domini marchiones teneantur et debeant,
+                            ab hodie in antea, tractare, tenere et habere amicos et sequaces prefati <persName ref="#Antlun"><addName type="honorific">domini</addName> <roleName type="office">episcopi</roleName></persName>
+                            pro veris, legitimis et propriis amicis suis<pc>.</pc></p>
+                            <lb />
+
+                            <p n="p9"><milestone n="|9|" unit="paragraph"/>Item in pace predicta idem venerabilis pater fecit expressam remissionem ditto <persName ref="#Dante"><forename>Danti</forename></persName>,
+                            recipienti ut supra, de omnibus et singulis bonis vel rebus acceptis seu habitis per ipsos dominos marchiones vel alios,
+                            nomine ipsorum, tempore occupationis facte de episcopatu de anno proxime preterito, seu per officiales ipsorum, a die
+                            restitutionis domini cardinalis retro<pc>.</pc></p>
+                            <lb />
+                  
+                            <p n="p10"><milestone n="|10|" unit="paragraph"/>Item promittit <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName> predictus <persName ref="#Dante"><forename>Danti</forename></persName> predicto,
+                            recipienti nominibus quibus supra, quod ipse <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName> omnes condempnationes,
+                            sententias, banna et processus factos, facta et data vel que seu qui fieri possent occasione
+                            aliquorum commissorum vel debitorum ab hinc retro, <anchor xml:id="anc8" />tam<hi xml:id="app8" class="app" rend="apex">(d)</hi><!--var testual--> in temporalibus quam
+                            in spiritualibus, per ipsum <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName> vel eius curiam temporalem vel
+                            spiritualem contra dittos dominos marchiones et ipsorum amicos, subditos et sequaces predittos, faciet cassari, irritari et anulari, et cassabit, irritabit et anulabit, et
+                            statuet et decernet pro nullis, <supplied resp="#TD" reason="support-damage">cassis et i</supplied>rritis haberi et teneri per quoslibet ipsius
+                            domini <supplied resp="#TD" reason="support-damage">episcopi vica</supplied>rios, iudices, potestates, rec<supplied resp="#TD" reason="support-damage">tores, nota</supplied>rios et ceteros alios
+                            <supplied resp="#TD" reason="support-damage">officia</supplied>les <supplied resp="#TD" reason="support-damage">et quamcumque personam,
+                            et</supplied> sibi reconcilia<supplied resp="#TD" reason="support-damage">bit et pro reconciliatis habebit om</supplied>nes illos de quibus <supplied xml:id="sup30" resp="#TD" reason="support-damage">in concordia fuerit pro </supplied><persName ref="#Franmal"><addName type="honorific"><supplied xml:id="sup31" resp="#TD" reason="support-damage">domino</supplied></addName><join target="#sup30 #sup31" result="supplied" scope="root"/> 
+                            <forename>Francischino</forename> <roleName type="nobility">marchione</roleName></persName> <supplied resp="#TD" reason="support-damage">predicto, hac conditione, videlicet quod</supplied> predictus <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename></persName> 
+                            <supplied resp="#TD" reason="support-damage">et <persName ref="#Corrad"><forename>Conradinus</forename></persName> et <persName ref="#Morroel"><addName type="honorific">dominus</addName> <forename>Morroellus</forename></persName>,
+                            si cuncta habere voluerint supradicta et infrascripta, vice consimili faciant et facere teneantur de amicis, subditis et sequacibus
+                            ipsius <persName ref="#Antlun"><addName type="honorific">domini</addName> <roleName type="office">episcopi</roleName></persName>, cum clausula ista, quod amici et sequaces predicti utriusque
+                            partis et qui sibi ad invicem inimici <hi rend="italic">sint</hi></supplied> ad pacem et concord<supplied resp="#TD" reason="support-damage">iam reduci debeant<gap reason="illegible" agent="damage"/></supplied>
+                            et modis omnibus  quibus poterunt per predictum <persName ref="#Franmal"><addName type="honorific">venerabilem patrem et dominum</addName>
+                            <forename>Francischinum</forename> <roleName type="nobility">marchionem</roleName></persName> predictum<pc>.</pc> </p>
+                   
+                            <p n="p11"><milestone n="|11|" unit="paragraph"/><anchor xml:id="anc9" />Acto<hi xml:id="app9" class="app" rend="apex">(e)</hi><!--var testuale--> etiam hoc specialiter et expresse
+                            inter dittum <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName> et dittum <persName ref="#Dante"><forename>Dantem</forename></persName>,
+                            agentem nomine quibus supra, quod iura <placeName ref="#Brina">Brine</placeName> et <placeName ref="#Bolan">Bolani</placeName> remaneant in eo statu in quo nunc sunt usque ad certum tempus eligendum et statuendum seu terminandum ab ipso <persName ref="#Antlun"><addName type="honorific">domino</addName> <roleName type="office">episcopo</roleName></persName>,
+                            ex una parte, et prefato <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>Francischino</forename> <roleName type="nobility">marchione</roleName> <surname>Malaspine</surname></persName>
+                            pro se et <persName ref="#Corrad"><addName type="honorific">dominis</addName> <forename>Conradino</forename></persName> et <persName ref="#Morroel"><forename>Morroello</forename></persName>, in quantum ipse <persName ref="#Morroel"><addName type="honorific">dominus</addName> <forename>Morroellus</forename></persName>
+                            rata habere voluerit suprascripta et infrascripta, ex altera<pc>.</pc> </p>
+                     
+                            <p n="p12"><milestone n="|12|" unit="paragraph"/>Et quod, ab eo tempore ultra sic
+                            electo, statuto vel terminato, sit licitum partibus antedictis in <placeName ref="#Brina">castro Brine</placeName> et <placeName ref="#Bolan">Bolani</placeName>
+                            prossequi iura sua et propter hoc, quod sic ipsa iura prosequantur dicte partes vel aliqua earum, non intelligatur pax esse fracta<pc>.</pc> </p>
+               
+                            <p n="p13"><milestone n="|13|" unit="paragraph"/>Et pax, que modo fatta est et fit,
+                            non derroget iuribus alicuius dittarum partium in ipsis castris <placeName ref="#Brina">Brine</placeName> et <placeName ref="#Bolan">Bolani</placeName><pc>.</pc> </p>
+                 
+                            <p n="p14"><milestone n="|14|" unit="paragraph"/>Convenit insuper ex pacto sollemni stipulatione vallato inter predictum <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName>,
+                            ex una parte, et <persName ref="#Dante"><forename>Dantem</forename></persName>,
+                            prefatum procuratorem ditti <persName ref="#Franmal"><addName type="honorific">domini</addName> <forename>Francischini</forename> <roleName type="nobility">marchionis</roleName></persName> procuratorio nomine pro eo,
+                            ex altera, quod predictus <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename></persName>,
+                            si non posset inducere dictum <persName ref="#Morroel"><addName type="honorific">dominum</addName> <forename>Morroellum</forename></persName> ad omnia predicta ratificanda et firma tenenda,
+                            ut supra expressum et dittum <supplied resp="#TD" reason="support-damage">est, n</supplied>on teneatur <anchor xml:id="anc10"/>ex<hi xml:id="app10" class="app" rend="apex">(f)</hi> eo vel propterea quod sic <gap reason="illegible" agent="damage"/>
+                            <persName ref="#Morroel"><addName type="honorific">dominum</addName> <forename>Morroellum</forename></persName> facere consent<supplied resp="#TD" reason="support-damage">ire et ratificare</supplied> predicta, nec ipse <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName>
+                            oblige<supplied resp="#TD" reason="support-damage">tur nec obligatus intel</supplied>ligatur ad pacem <supplied resp="#TD" reason="support-damage"><hi rend="italic">cum</hi></supplied> <persName><addName type="honorific">domino</addName> <forename><supplied resp="#TD" reason="support-damage">Morroello</supplied></forename></persName> et hominibus terrarum ipsius,
+                            si sic ut <supplied resp="#TD" reason="support-damage">supra non consenti</supplied>ret et ratificaret ipse <persName ref="#Morroel"><addName type="honorific">dominus</addName> <forename>Mo<supplied resp="#TD" reason="support-damage">rro</supplied>ellus</forename></persName>,
+                            nec robur assumat pax vel <supplied resp="#TD" reason="support-damage">concordia sic</supplied> facta pro ipso <persName ref="#Morroel"><addName type="honorific">domino</addName> <forename>Morroello</forename></persName>
+                            et hominibus ter<supplied resp="#TD" reason="support-damage">rarum i</supplied>psius, nisi s<supplied resp="#TD" reason="support-damage">ic</supplied> ut s<supplied resp="#TD" reason="support-damage">upra ipse</supplied> <persName ref="#Morroel"><addName type="honorific">dominus</addName> <forename>Morro<supplied xml:id="sup32" resp="#TD" reason="support-damage">ellus</supplied></forename></persName><supplied xml:id="sup33" resp="#TD" reason="support-damage"> consenserit, ra</supplied><join target="#sup32 #sup33" result="supplied" scope="root"/>tifica<supplied resp="#TD" reason="support-damage">verit et ap</supplied>probaverit
+                            o<supplied resp="#TD" reason="support-damage">mnia et singula</supplied> suprascripta et infrascripta<pc>.</pc></p>
+                            <lb />
+                            <p n="p15"><milestone n="|15|" unit="paragraph"/>Hanc autem pacem et veram concordiam, remissionem, absolutationem,
+                            liberationem et quietationem et omnia et singula suprascripta promiserunt sibi ad invicem ditte partes,
+                            videlicet dittus <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName>, ex una parte, et <persName ref="#Dante"><forename>Dante</forename></persName>,
+                            prefatus procurator ditti <persName ref="#Franmal"><addName type="honorific">domini</addName> <forename>Francischini</forename></persName>
+                            procuratorio nomine pro eo et nominibus quibus supra, ex altera, sollemnibus stipulationibus hinc inde intervenientibus,
+                            perpetuo rata, grata et firma habere, tenere, observare et adimplere,
+                            et contra ea vel aliquod eorum numquam facere vel venire per se vel per alios, de iure vel de facto,
+                            nec alicui contra venire vel facere volenti consentire, ymo sese in contrarium opponere et pro viribus impedire,
+                            in pena et sub pena <measure type="silver-marks" quantity="1000">mille marcharum argenti</measure> sollemni stipulatione promissa ac tociens comittenda et effettualiter exigenda per partem fidem
+                            servantem a parte que non servaret preditta vel aliquod predittorum, quociens contra predicta vel predittorum aliquod factum vel ventum foret, predittis nichilominus
+                            in sue firmitatis robore duraturis<pc>.</pc> </p>
+
+                            <p n="p16"><milestone n="|16|" unit="paragraph"/>Pro quibus omnibus et singulis sic attendendis
+                            et observandis et penis prestandis et solvendis obligaverunt sibi ad invicem dicte partes,
+                            videlicet dictus <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName>
+                            se et suos subcessores et bona episcopatus et eius propria et dictus <persName ref="#Dante"><forename>Dante</forename></persName>,
+                            procurator dicti <persName ref="#Franmal"><addName type="honorific">domini</addName> <forename>Francischini</forename></persName> procuratorio nomine pro eo, ipsum <persName ref="#Franmal"><addName type="honorific">dominum</addName> <forename>Francischinum</forename></persName> et eius bona habita et habenda<pc>.</pc> </p>
+
+                            <p n="p17"><milestone n="|17|" unit="paragraph"/>Acto hoc expresse et specialiter inter dittas <anchor xml:id="anc11"/>partes,<hi xml:id="app11" class="app" rend="apex">(g)</hi> quod in tantum obli<supplied resp="#TD" reason="support-damage">getu</supplied>r
+                            et obligatus intelligatur ad pene solut<supplied resp="#TD" reason="support-damage">ionem et exactionem</supplied>
+                            dictus <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename></persName> et preditti <persName ref="#Corrad"><addName type="honorific"><supplied xml:id="sup34" resp="#TD" reason="support-damage">dominus </supplied></addName><forename><supplied xml:id="sup35" resp="#TD" reason="support-damage">Conra</supplied><join target="#sup34 #sup35" result="supplied" scope="root"/>dinus</forename></persName> et <persName ref="#Morroel"><addName type="honorific">dominus</addName> <forename>Morroellus</forename></persName> 
+                            <supplied resp="#TD" reason="support-damage">in quantum ratificaverint supra</supplied>dicta omnia,
+                            ut supra dict<supplied resp="#TD" reason="support-damage">um et expressum est, ipsi <persName ref="#Antlun"><addName type="honorific">domino</addName> <roleName type="office">episcopo</roleName></persName></supplied> et suis subcessoribus<pc>;</pc>
+                            <supplied resp="#TD" reason="support-damage"><gap reason="illegible" agent="damage"/> et ipse <persName ref="#Antlun"><addName type="honorific">dominus</addName> <roleName type="office">episcopus</roleName></persName></supplied>
+                            et sui subcessores <supplied resp="#TD" reason="support-damage">obligentur et obligari</supplied> <anchor xml:id="anc12" />possent<hi xml:id="app12" class="app" rend="apex">(h)</hi>
+                            <supplied resp="#TD" reason="support-damage"><gap reason="illegible" agent="damage"/>per supradictam stipulationem ipsi <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>Francischino</forename></persName> et aliis dominis marchionibus supradictis<pc>;</pc>
+                            renuntiantes, et cetera, dicte partes omnibus et singulis eorum exceptionibus et defensionibus<gap reason="illegible" agent="damage"/></supplied>
+                            et canonics beneficiis et privilegiis, quibus contra predicta possent facere vel venire vel a predictis seu
+                            eorum aliquo aliqualiter se tueri<pc>.</pc></p>
+                            <lb />
+                            <p n="p18"><milestone n="|18|" unit="paragraph"/>Actum in camera episcopalis palacii de <placeName ref="#Castelnu">Castro Novo</placeName>,
+                            presentibus <persName ref="#Guglielm"><addName type="honorific">domino</addName> <addName>fratre</addName> <forename>Guillielmo</forename> <surname>Malaspina</surname></persName> ordinis Minorum,
+                            <persName><addName type="honorific">domino</addName> <forename>Bartolo</forename> <placeName ref="#Lun">Lunensi</placeName> <roleName type="office">archidiacono</roleName></persName>, <persName ref="#Percival"><addName type="honorific">domino</addName> <forename>Percivalle</forename> <surname>de Camilla</surname></persName> fratre ipsius <persName ref="#Antlun"><addName type="honorific">domini</addName> <roleName type="office">episcopi</roleName></persName>,
+                            <persName><addName>fratre</addName> <forename>Gasparino</forename> de <placeName ref="#Sarz">Sarzana</placeName></persName>, <persName><addName type="honorific">dominis</addName> <forename>Mazingo</forename> de <placeName ref="#Prat">Prato</placeName></persName>, <persName><forename>Tomasino</forename></persName> filio Parentis Stupii de <placeName ref="#Sarz">Sarzana</placeName> et
+                            <persName><forename>Francischino</forename> <surname>de Pelacano</surname></persName> iudicibus, testibus ad hec rogatis et vocatis<pc>.</pc></p>
+                            <lb />
+                            <p n="p19"><milestone n="|19|" unit="paragraph"/>Infrascripta sunt patta firmata inter <persName ref="#Antlun"><addName type="honorific">dominum</addName> <forename>Antonium</forename> <placeName ref="#Lun">Lunensem</placeName> <roleName type="office">episcopum</roleName></persName>,
+                            ex parte una, et <persName ref="#Franmal"><addName type="honorific">dominum</addName> <forename>Francischinum</forename> <roleName type="nobility">marchionem</roleName> <surname>Malaspine</surname></persName>
+                            pro se et consortibus suis, ex altera<pc>;</pc> et secundum ea fieri debet pax et facta est ut in suprascripto contrattu continetur<pc>;</pc>
+                            et firmata sunt ipsa patta in camera episcopalis palacii de <placeName ref="#Castelnu">Castro Novo</placeName>, die et anno suprascriptes et coram predictis testibus, et sunt hec, videlicet<pc>.</pc></p>
+
+                            <p n="p20"><milestone n="|20|" unit="paragraph"/>Patta que petit <persName ref="#Franmal"><addName type="honorific">dominus</addName> <forename>Francischinus</forename> <roleName type="office">marchio</roleName> <surname>Malaspina</surname></persName> pro se,
+                            consortibus suis et eorum amicis de <placeName ref="#Lun">Lunexana</placeName> atque sequacibus pro pace facienda inter eos
+                            et <persName ref="#Antlun"><addName type="honorific">dominum</addName> <placeName ref="#Lun">Lunensem</placeName> <roleName type="office">episcopum</roleName></persName> sunt <supplied resp="#TD" reason="support-damage"><hi rend="italic">hec</hi></supplied><pc type="colon">:</pc>
+                            <lb />  
+                            <supplied resp="#TD" reason="support-damage"><hi rend="italic"><num type="ordinal" value="1">primo</num>, quod</hi></supplied> <persName ref="#Antlun"><addName type="honorific">dominus</addName> <placeName ref="#Lun">Lunensis</placeName> <roleName type="office">episcopus</roleName></persName>
+                            amic<supplied resp="#TD" reason="support-damage"><hi rend="italic">os et sequaces <persName ref="#Franmal"><addName type="honorific">dominorum</addName> <roleName type="nobility">marchionum</roleName></persName></hi></supplied> debeat tenere et <supplied xml:id="sup36" resp="#TD" reason="support-damage"><hi rend="italic">habere pro suis amicis; et </hi></supplied><persName ref="#Franmal"><addName type="honorific"><supplied xml:id="sup37" resp="#TD" reason="support-damage"><hi rend="italic">domini</hi></supplied><join target="#sup36 #sup37" result="supplied" scope="root"/></addName> <roleName type="nobility">marchiones</roleName></persName>
+                            <supplied resp="#TD" reason="support-damage"><hi rend="italic">debeant tenere et habere amicos et sequaces prefati <persName ref="#Antlun"><addName type="honorific">domini</addName> <roleName type="office">episcopi</roleName></persName> pro amici suis<pc>;</pc></hi></supplied><pc>;</pc>
+                            <lb />
+                            <supplied resp="#TD" reason="support-damage"><hi rend="italic"><num type="ordinal" value="2">secundo</num>, <anchor xml:id="anc13"/>quod</hi><gap reason="illegible" agent="damage"/></supplied><pc>;</pc><hi xml:id="app13" class="app" rend="apex">(i)</hi>
+                            <lb />
+                            <num type="ordinal" value="3">tercio</num>, quod omnes condempnationes, banna et processus facti et facta vel qui
+                            fieri possent occasione aliquorum commissorum ab hinc retro,
+                            tam<hi class="app" rend="apex">(d)</hi> in temporalibus quam spiritualibus, per <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName> vel eius curriam temporalem vel
+                            spiritualem conta amicos, subditos et sequaces <persName ref="#Franmal"><addName type="honorific">dominorum</addName> <roleName type="nobility">marchionum</roleName></persName> sint cassa, irrita et nullius momenti atque cassari debeant per ipsum <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName><pc>;</pc>
+                            et quod omnes imbaniti sequaces et amici ipsorum <persName ref="#Franmal"><roleName type="nobility">marchionum</roleName></persName>, quos nominandos
+                            duxerit ipse dictus <persName ref="Franmal"><forename>Francischinus</forename></persName>, reconcilientur cum ipso <persName ref="#Antlun"><addName type="honorific">domino</addName> <placeName ref="#Lun">Lunensi</placeName> <roleName type="office">episcopo</roleName></persName><pc>.</pc></p>
+                            <lb />
+                            <p n="p21"><milestone n="|21|" unit="paragraph"/>Ex nunc declaretur et vice consimili fiat de sequacibus et amicis <persName ref="#Antlun"><addName type="honorific">domini</addName> <roleName type="office">episcopi</roleName></persName>,
+                            cum crausula commissionis faciende de amicis et sequacibus qui sibi ad invicem inimicarentur<pc>.</pc></p>
+                            <lb />
+                            <p n="p22"><milestone n="|22|" unit="paragraph"/>Iura vero <placeName ref="#Brina">Brine</placeName> et <placeName ref="#Bolan">Bolani</placeName> remaneant in eo statu in quo nunc sunt usque ad
+                            certum tempus a partibus eligendum<pc>;</pc> et ab eo tempore ultra sit licitum partibus in
+                            <placeName ref="#Brina">castro Brine</placeName> prossequi iura sua, et propter hoc pax non intelligatur esse fratta<pc>;</pc>
+                            et quod nunc pax fiat non derrogando iuribus alicuius partium<pc>.</pc></p>
+                            <lb />
+                            <p n="p23"><milestone n="|23|" unit="paragraph"/>Sequaces <persName ref="#Franmal"><addName type="honorific">dominorum</addName> <roleName type="nobility">marchionum</roleName></persName> sunt hii<pc type="colon">:</pc>
+                            <lb />
+                            pars de <placeName ref="#Sarz">Sarzana</placeName> et castro <placeName ref="#Sarz">Sarzane</placeName>,
+                            <lb />
+                            <supplied resp="#TD" reason="support-damage">de</supplied> <anchor xml:id="anc14" /><placeName ref="#Carrar">Carraria</placeName>,<hi xml:id="app14" class="app" rend="apex">(j)</hi>
+                            <lb />
+                            <supplied resp="#TD" reason="support-damage"><hi rend="italic">de</hi></supplied> <placeName ref="#Ponz">Ponzano</placeName>,
+                            <lb />
+                            <supplied resp="#TD" reason="support-damage"><hi rend="italic">de <placeName ref="#Bibola">Bibola</placeName></hi></supplied>,
+                            <lb />
+                            <supplied xml:id="sup38" resp="#TD" reason="support-damage"><hi rend="italic">pars de </hi></supplied><placeName ref="#SantStef"><supplied xml:id="sup39" resp="#TD" reason="support-damage"><hi rend="italic">Sancto</hi></supplied><join target="#sup38 #sup39" result="supplied" scope="root"/> Stephano</placeName> <supplied resp="#TD" reason="support-damage">et</supplied> <placeName ref="#Bolan">Bolano</placeName><pc>.</pc></p>
+                    </div>    
+                </body>
+                <back>
+                    <listApp type="apparato145">
+                        <app n="a" from="#anc5" to="#app5">
+                            <lem resp="#TD">eundenque</lem>
+                            <rdg type="orthographic">eandenque</rdg>
+                        </app>
+                        <app n="b" from="#anc6" to="#app6">
+                            <lem resp="#TD">mei</lem>
+                            <note><hi rend="italic">nel <choice><abbr>marg.</abbr><expan>margine</expan></choice> <choice><abbr>sin</abbr><expan>sinistro</expan></choice></hi></note>
+                        </app>
+                        <app n="c" from="#anc7" to="#app7">
+                            <lem resp="#TD">parte</lem>
+                            <rdg type="orthographic">pars</rdg>
+                        </app>
+                        <app n="d" from="#anc8" to="#app8">
+                            <lem resp="#TD">tam</lem>
+                            <rdg type="orthographic">tan</rdg>
+                        </app>
+                        <app n="e" from="#anc9" to="#app9">
+                            <lem resp="#TD">Acto</lem>
+                            <rdg type="orthographic">actto</rdg>
+                            <note><hi rend="italic">con la prima t espunta</hi></note>
+                        </app>
+                        <app n="f" from="#anc10" to="#app10">
+                            <lem resp="#TD">ex</lem>
+                            <note><hi rend="italic">in interl.</hi></note>
+                        </app>
+                         <app n="g" from="#anc11" to="#app11">
+                            <lem resp="#TD">partes</lem>
+                            <note><hi rend="italic">in interl.</hi></note>
+                        </app>
+                        <app n="h" from="#anc12" to="#app12">
+                            <lem resp="#TD">possent</lem>
+                            <note><hi rend="italic">seguono sei righe di testo</hi></note>
+                        </app>
+                        <app n="i" from="#anc13" to="#app13">
+                            <lem resp="#TD">quod <gap reason="illegible" agent="damage"/></lem>
+                            <note><hi rend="italic">manca verosimilmente la clausola riguardante i beni sottratti</hi></note>
+                        </app>
+                         <app n="j" from="#anc14" to="#app14">
+                            <lem resp="#TD"><placeName ref="#Carrar">Carraria</placeName></lem>
+                            <rdg type="orthographic">Carrarie</rdg>
+                        </app>
+                    </listApp>
+                </back>
+            </text>
+   <text n="testo146">
+        <front>
+            <head>Documento nr 146  1306 ottobre 13, Castelnuovo (Sarzana)</head>
+            <div xml:lang="IT" type="preface"><p>Antonio vescovo conte di Luni stipula la pace col comune di Sarzana, rappresentato da Francesco di Corvetto da Sarzana vicario del podestà Ubaldo di Malpigio da Lucca, rimettendo tutte le condanne contro gli uomini di Sarzana</p></div>
+             <div type="infmanuscript" xml:lang="IT">
+                    <p><choice><abbr>ASSp</abbr><expan>Archivio storico La Spezia</expan></choice>, Pace di Dante, <hi rend="italic">tabulae <num type="ordinal" value="5">V</num><choice><abbr>v</abbr><expan>verso</expan></choice>-<num type="ordinal" value="6">VI</num><choice><abbr>r</abbr><expan>recto</expan></choice></hi>
+                       (gi&#224;, <placeName ref="#Sarz">Sarzana</placeName><choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie <num>342</num>, <choice><abbr>nr.</abbr><expan>numero</expan></choice><num>5</num>, cc.<hi rend="italic"><num>274</num><choice><abbr>v</abbr><expan>verso</expan></choice>-<num>275</num><choice><abbr>r</abbr><expan>recto</expan></choice></hi>),
+                       un tempo parte del protocollo di imbreviature del <persName ref="#GiovandiParen"><roleName type="office">notaio</roleName> <forename>Giovanni</forename> di <surname>Parente</surname> <surname>Stupio</surname></persName><pc>.</pc>
+                       Nel margine superiore, a sinistra, il riferimento alla redazione <hi rend="italic">in mundum</hi> &#60;&#60;Facta&#62;&#62; (sottointeso <hi rend="italic">charta</hi>)<pc>.</pc></p>
+                    </div> 
+             <div type="BiblEdizioni">
+                    <p>Edizioni:
+                        <listBibl>
+                            <bibl source="#CDDBIPASS146">
+                                  <editor ref="#GUIB">
+                                    <persName>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>-
+                                  <editor ref="#GILP">
+                                    <persName>
+                                        <surname>Passerini</surname>
+                                    </persName>
+                                </editor>,
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                <biblScope unit="volume"><num type="ordinal" value="8">disp. VIII</num></biblScope>
+                                <biblScope unit="page"><num type="cardinal" value="14">pp. 14</num></biblScope>.
+                            </bibl>
+                        </listBibl>
+                    </p>
+            </div>
+        </front>
+        <body>
+            <div xml:lang="la" type="146">
+                
+                <!--AssSpezia, Archivio notarile, Pace di Dante, tabulae vv-vIr (Già Sarzana, Arch.Notarile, serie 342, 
+                nr.5, cc.274v-275r), un tempo parte del protocollo di imbreviature del notaio Giovanni di Parente
+                Stupio. Nel margine superiore, a sinistra, il riferimento alla redazione in mundum (Facta) (sottin-
+                teso charta). Per le condizioni dell’orig. e le integrazioni delle lacune vd. doc.144.
+                Edizione: Biagi-Passerini, CDD, disp. VIII p.14.-->
+
+      
+                     <p n="p1"><milestone n="|1|" unit="paragraph"/>In nomine Domini, amen<pc>.</pc> Anno a nativitate eius <date when="1306">M<hi rend="apex">°</hi>CCCVI<hi rend="apex">°</hi></date>, indictione <num type="ordinal" value="4">IIII<hi rend="apex">a</hi></num>, die
+                        <date when="--/10/13"><num type="cardinal" value="13">XIII</num><hi rend="apex">°</hi> ottubris</date><pc>.</pc></p>
+
+                     <p n="p2"><milestone n="|2|" unit="paragraph"/>Notum sit universis quod venerabilis pater <persName ref="#Antlun"><addName type="honorific">dominus</addName> <forename>Antonius</forename>,
+                        Dei gratia <placeName ref="#Lun">Lunensis</placeName> <roleName type="office">episcopus</roleName></persName>, de gratia et benevolentia speciali coram me notario et
+                        testibus infrascriptis fecit <persName><forename>Francisco</forename> <roleName>condam</roleName> <surname>Corvetti</surname>de <placeName ref="#Sarz">Sarzana</placeName></persName>,
+                        vicario <persName><addName type="honorific">nobilis</addName> <roleName type="military">militis</roleName> <addName type="honorific">domini</addName> <forename>Ubaldi</forename> <surname>Malpigi</surname> de <placeName ref="#LUC">Luca</placeName></persName> <anchor xml:id="anc15" />potestatis<hi xml:id="app15" class="app" rend="apex">(a)</hi>
+                        comunis et universitatis burgi et castri <placeName ref="#Sarz">Sarzane</placeName>, recipienti publico nomine pro comuni et universitate predicta, finem
+                        remissionem et pattum de non petendo et donationem inrevocabilem inter vivos de
+                        omnibus et singulis condempnationibus et condempnationum sententiis latis et
+                        promulgatis per quemcunque rectorem vel magistratum contra <placeName ref="#Sarz">comune</placeName> et universitatem predictam de quibuscunque summis vel quantitatibus et rebus vel factis in
+                        eis comprehensis, quacunque sint verborum conceptione formate, usque in diem
+                        hodiernam ac ex si certa scientia forent <anchor xml:id="anc16" />specialiter<hi xml:id="app16" class="app" rend="apex">(b)</hi> et expresse presenti pagina no-
+                        minate, liberans et absolvens inde dittum <persName><forename>Franciscum</forename></persName>, ditto nomine, et dictam universitatem et comune,
+                        mediante persona ditti <persName><forename>Francischi</forename></persName>, per aquilianam stipulationem et acceptilationem verbis sollempnibus;
+                        ita ut de cetero dictum comune et universitas propterea vel dependenti exinde causa tanquam ipso iure absolutum et absoluta de iure vel de facto inquietari vel molestari non possit vel debeat inde
+                        per <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName ref="office">episcopum</roleName></persName> supradictum vel eius subcessorem seu nunciam, castaldionem camere, vel aliquem demum officialem ipsorum<pc>.</pc></p>
+
+                        <p n="p3"><milestone n="|3|" unit="paragraph"/>Idemque per omnia fecit et esse
+                        voluit et mandavit de omnibus et singulis delictis, <anchor xml:id="anc17" />excessibus<hi xml:id="app17" class="app" rend="apex">(c)</hi> et processibus usque
+                        in diem hodiernam pendentibus et commissis, perpetratis et <supplied resp="#TD" reason="support-damage"><hi rend="italic">factis</hi></supplied>
+                        per dictam universitatem et comune dolo, culpa vel negligencia vel alia ratione, de quibus procedi
+                        posset contra comune et universitatem predictam vel eius syndicum vel actorem ad
+                        condempnationem aliquam faciendam, sive inchoatti ian sint processus sive non,
+                        dum tamen iam sit commissa causa, de qua accusatio, denuntiato vel inquisito potuisset fieri vel proponi<pc>.</pc></p>
+        
+                        <p n="p4"><milestone n="|4|" unit="paragraph"/>Quoniam idem pater ex certa scientia sic esse voluit et mandavit,
+                        vetans expresse omnes magistratus et rectores sui episcopatus 
+                        <supplied resp="#TD" reason="support-damage"><hi rend="italic">contra i</hi></supplied>p<supplied resp="#TD" reason="support-damage"><hi rend="italic">sum</hi></supplied> comune et universitatem aliquo modo procedere ex causa 
+                        al<supplied resp="#TD" reason="support-damage"><hi rend="italic">iqua</hi><gap reason="illegible" agent="damage"/><hi rend="italic">commi</hi></supplied>ssa, et in quantum processum sit vel proced<supplied resp="#TD" reason="support-damage"><hi rend="italic">atur</hi><gap reason="illegible" agent="damage"/></supplied> et vult omnem accusationem
+                        <supplied resp="#TD" reason="support-damage"><hi rend="italic">noli acceptare</hi><gap reason="illegible" agent="damage"/><hi rend="italic">et proce</hi></supplied>ssum esse cassum, irri<supplied resp="#TD" reason="support-damage"><hi rend="italic">itum</hi><gap reason="illegible" agent="damage"/><hi rend="italic">et i</hi></supplied>nane ipso iure, ut in<gap reason="illegible" agent="damage"/>
+                        pro<gap reason="illegible" agent="damage"/>etur nulli se <gap reason="illegible" agent="damage"/> episcopus <gap reason="illegible" agent="damage"/> ditto <persName><forename>Francisco</forename></persName> ut supra <anchor xml:id="anc18" /><gap reason="illegible" agent="damage"/><hi xml:id="app18" class="app" rend="apex">(d)</hi>
+                        supra recipienti nomine ditti comunis et universitatis, omnia iura et attiones que et quas habet
+                        vel habebit de cetero contra ipsum <placeName ref="#Sarz">comune</placeName> et universitatem occasione predicta<pc>.</pc></p> 
+
+                        <p n="p5"><milestone n="|5|" unit="paragraph"/>Et facit ipsam universitatem procuratricem et dominam in rem suam de predictis,
+                        ita tamen quod hec concessio nullo casu extendi possit ad condempnationes vel delicta
+                        singularum personarum dicte universitatis et comunis<pc>.</pc></p>
+
+                        <p n="p6"><milestone n="|6|" unit="paragraph"/>Et promittit ratum habere, et cetera<pc>;</pc> obligans, et cetera, renuntias, et cetera<pc>.</pc></p>
+                        <lb />
+                        <p n="p7"><milestone n="|7|" unit="paragraph"/>Actum in camera episcopalis palacii de <placeName ref="#Castelnu">Castro Novo</placeName>,
+                        presentibus <persName><addName type="honorific">domino</addName> <forename>Bernardo</forename> <surname>Borgarini</surname> de <placeName ref="#LUC">Luca</placeName> <roleName type="office">iudice</roleName></persName>, <persName><forename>Dino</forename> <surname>de Gualdo</surname></persName> priore <placeName ref="#LUC">Lucani</placeName> comunis,
+                        <persName ref="#Guglielm"><addName type="honorific">fratre</addName> <forename>Guillielmo</forename> <surname>Malaspina</surname></persName> et <persName><addName type="honorific">fratre</addName> <forename>Guillielmo</forename> de <placeName ref="#Sestgod">Godano</placeName></persName> testibus, et cetera<pc>.</pc></p>
+            </div>
+        </body>
+        <back>
+            <listApp type="apparato146">
+                <app n="a" from="#anc15" to="#app15">
+                    <lem resp="#TD">potestatis</lem>
+                    <note><hi rend="italic">segue depenn. <placeName ref="#Sarz">Sar(zane)</placeName> et castri</hi></note>
+                </app>
+                 <app n="b" from="#anc16" to="#app16">
+                    <lem resp="#TD">specialiter</lem>
+                    <rdg type="orthographic">speciale</rdg>
+                </app>
+                <app n="c" from="#anc17" to="#app17">
+                    <lem resp="#TD">excessibus</lem>
+                    <rdg type="orthographic">accessibus</rdg>
+                </app>
+                <app n="d" from="#anc18" to="#app18">
+                    <note><hi rend="italic">Lacuna di 9 righe quasi del tutto illeggibili</hi></note>
+                </app>
+            </listApp>
+        </back>
+    </text>
+    <text n="testo147">
+            <front>
+                <head>Documento nr. 147 1306 ottobre 18, Castelnuovo (Sarzana)</head>
+                <div xml:lang="IT" type="preface"><p>Antonio vescovo conte di Luni revoca l’interdetto nei confronti di Sarzana, Santo Stefano, Ponzano e Bolano a seguito della pace con i Malaspina.</p></div>
+                <div type="infmanuscript" xml:lang="IT">
+                    <p><choice><abbr>ASSp</abbr><expan>Archivio storico La Spezia</expan></choice>, Pace di Dante, <hi rend="italic">tabula <num type="ordinal" value="6">VI</num><choice><abbr>r</abbr><expan>recto</expan></choice></hi>
+                       (gi&#224;, <placeName ref="#Sarz">Sarzana</placeName><choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie <num>342</num>, <choice><abbr>nr.</abbr><expan>numero</expan></choice><num>5</num>, c.<hi rend="italic"><num>275</num><choice><abbr>r</abbr><expan>recto</expan></choice></hi>),
+                       un tempo parte del protocollo di imbreviature del <persName ref="#GiovandiParen"><roleName type="office">notaio</roleName> <forename>Giovanni</forename> di <surname>Parente</surname> <surname>Stupio</surname></persName><pc>.</pc>
+                       Prima dell'atto, in modulo minore, l'annotazione relativa alla redazione <hi rend="italic">in mundum</hi> &#60;&#60;Facta Comuni Punzani&#62;&#62; <pc>.</pc> Nella data, la lettura &#60;&#60;<num type="ordinal" value="18">XVIII<hi rend="apex">°</hi></num>&#62;&#62; (anzich&#232; <num type="ordinal" value="19">XVIIII</num><hi rend="apex">°</hi>&#62;&#62;, come nell' <bibl source="#CDDBIPASS147"><choice><abbr>ediz.</abbr><expan>edizione</expan></choice> di <persName ref="#GUIB"><surname>Biagi</surname></persName>-<persName ref="#GILP"><surname>Passerini</surname></persName></bibl>) non &#232; del tutto certa, ma il fatto che sul <hi rend="italic">verso</hi> della medesima carta segua il documento 148, datato <date when="--/10/18">18 ottobre</date>, la rende preferibile<pc>.</pc></p>
+                </div>  
+                <div type="BiblEdizioni">
+                    <p>Edizioni:
+                        <listBibl>
+                            <bibl source="#CDDBIPASS147">
+                                  <editor ref="#GUIB">
+                                    <persName>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>-
+                                  <editor ref="#GILP">
+                                    <persName>
+                                        <surname>Passerini</surname>
+                                    </persName>
+                                </editor>,
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                <biblScope unit="volume"><num type="ordinal" value="8">disp. VIII</num></biblScope>
+                                <biblScope unit="page"><num type="cardinal" value="15">pp. 15</num></biblScope>.
+                            </bibl>
+                        </listBibl>
+                    </p>
+            </div>           
+            </front> 
+            <body>
+                <div xml:lang="la" type="147">
+                    
+                    <!--ASSpezia, Archivio notarile, Pace di Dante, tabula VIr (già Sarzana, Arch. Notarile, serie 342, nr.5,
+                    c.275r), un tempo parte del protocollo di imbreviature del notaio Giovanni di Parente Stupio. Pri-
+                    ma dell’atto, in modulo minore, l’annotazione relatava alla redazione in mundum: (Facta Comunis
+                    Punzani)). Per le condizioni dell’orig. e le integrazioni delle lacune vd. doc. 144. Nella data, la let-
+                    tura (XVIII°) (anzichè (XVIIII°), come nell’ediz. di Biagi-Passerini) non è del tutto certa, ma il fatto che sul verso della medesima carta segue il doc. 148, datato 18 ottobre, la rende preferibile.
+                    Edizione: BIAGI-PASSERINI, CDD, disp. VIII p.15.-->
+
+
+                            <p>In nomine Domini, amen<pc>.</pc> Anno nativitate eius <date when="1306">M<hi rend="apex>">°</hi>CCCVI<hi rend="apex">°</hi></date>, inditione <num type="ordinal" value="4">quarta</num>, die
+                            <date when="--/10/18"><num type="cardinal" value="18">XVIII<hi rend="apex">°</hi></num> octubris</date><pc>.</pc>
+                            <persName ref="#Antlun"><addName type="honorific">Venerabilis pater</addName> <addName type="honorific">dominus</addName> <forename>Antonius</forename>, miseratione divina <placeName ref="#Lun">Lunensis</placeName> <roleName type="office">episcopus</roleName> atque <roleName type="nobility">comes</roleName></persName>,
+                            ad preces et instantiam <persName ref="#Franmal"><addName type="honorific">magnifici</addName> <addName type="honorific">viri domini</addName> <forename>Francischini</forename> <roleName type="nobility">marchionis</roleName> <surname>Malaspina</surname></persName>
+                            absolvit et liberavit comune et homines de <placeName ref="#Sarz">Sarzana</placeName> et castro <placeName ref="#Sarz">Sarzane</placeName>, comune et homines de <placeName ref="#SantStef">Sancto Stephano</placeName>, comune et homines de <placeName ref="#Ponz">Punzano</placeName>
+                            et comune et homines de <placeName ref="#Bolan">Bolano</placeName> ab omni sententia excomunicationis et interdicti
+                            lata contra dicta comunia vel homines dictorum comunium generaliter vel singulariter et ex quacunque de causa per dictum venerabilem patrem vel eius vicarium
+                            spiritualem ab hodierna die retro quacunque occasione vel modo;
+                            concedens ex nunc eorum rectoribus, canonics et cappellanis dictorum comunium ut deinceps in dicti comunibus,
+                            non obstane dicta sententia excomunicati <supplied resp="#LR" reason="support-damage">onis</supplied> vel interdicti,
+                            una vel pluribus, alta voce, diebus f<gap reason="illegible" agent="damage"/>, portis <supplied resp="#LR" reason="support-damage">a</supplied>pertis et campanis pulsatis, divina
+                            ca<supplied resp="#LR" reason="support-damage"><hi rend="italic">nonica</hi> <supplied resp="#LR" reason="omitted-in-original"><hi rend="italic">celebrantur</hi></supplied> <hi rend="italic">offi</hi></supplied>cia ad que recipi<supplied resp="#LR" reason="support-damage">a</supplied>ntur prefacta comunia,
+                            et ipsi ho<supplied resp="#LR" reason="support-damage">mi<hi rend="italic">nes</hi><gap reason="illegible" agent="damage"/><hi rend="italic">dictorum</hi></supplied> comunium atque per se <gap reason="illegible" agent="damage"/> admod<supplied resp="#LR" reason="support-damage"><hi rend="italic">um</hi></supplied> possint divinis inter<supplied resp="#LR" reason="support-damage"><hi rend="italic">venire</hi></supplied>
+                            et partecipare eisdem ut vere catolici, secundum c<supplied resp="#LR" reason="support-damage"><hi rend="italic">anonics</hi></supplied> santiones<pc>.</pc>
+                            <lb />
+                            Fiat ut melius fieri possit in favorem suprascriptorum omnium, non mutando
+                            formam substantie contractus s<supplied resp="#LR" reason="support-damage"><hi rend="italic">ecundum</hi></supplied> consilia sapie<supplied resp="#LR" reason="support-damage"><hi rend="italic">ntium</hi></supplied><pc>.</pc>
+                            <lb />
+                            Actum in camera episcopalis palactii de <placeName ref="#Castelnu">Castro Novo</placeName>,
+                            presentibus <persName ref="#Guglielm"><addName type="honorific">fratre</addName> <forename>Guillielmo</forename> <surname>Malaspina</surname></persName>, <persName><addName type="honorific">dominis</addName> <forename>Francischino</forename> <surname>de Pelacano</surname></persName> et <persName><forename>Bonacurso</forename> <roleName type="office">iudicibus</roleName></persName>,
+                            <persName><addName type="honorific">fratre</addName> <forename>Gasparino</forename></persName> et <persName><addName type="honorific">fratre</addName> <forename>Guillielmo</forename> de <placeName ref="#Sestgod">Godano</placeName></persName> et <persName ref="#Percival"><addName type="honorific">domino</addName> <forename>Percivalle</forename> <surname>de Camilla</surname></persName> testibus ad hec rogatis et vocatis<pc>.</pc>
+                            <lb />
+                            Die s<supplied resp="#LR" reason="support-damage"><hi rend="italic">uprascripta</hi></supplied> et coram testibus suprascriptis in dicto loco dictus <persName ref="#Antlun"><placeName ref="#Lun"><supplied resp="#LR" reason="support-damage"><hi rend="italic">Lunensis</hi></supplied></placeName>
+                            <roleName type="office">episcopus</roleName></persName> commisit <persName><addName type="honorific">fratri</addName> <forename>Guillielmo</forename> de <placeName ref="#Sestgod">Godano</placeName></persName> et guardiano fratrum Mino<supplied resp="#LR" reason="support-damage"><hi rend="italic">rum</hi></supplied>
+                            qui pro tempore esset ut possit extrahere omnes personas de excomunicatione, n<supplied resp="#LR" reason="support-damage">ominatim</supplied> excomunicatos sequaces dominorum marchionum et excomunicatos ab
+                            hinc retro<pc>.</pc> Fiat ut melius fieri possit instrumentum<pc>.</pc></p>
+                    </div>
+                </body>
+    </text>
+    <text n="testo148">
+            <front>
+                <head>Documento nr.148. 1306 ottobre 18, Castelnuovo (Sarzana)</head>
+                <div xml:lang="IT" type="preface"><p>Antonio vescovo conte di Luni, adempiendo alla promessa fatta a Dante di Alighiero che in nome di Malaspina ha stipulato con lui la pace, revoca le condanne emesse nei confronti di sei lunigianesi.</p></div>
+                <div type="infmanuscript" xml:lang="IT">
+                    <p><choice><abbr>ASSp</abbr><expan>Archivio storico La Spezia</expan></choice>, Pace di Dante, <hi rend="italic">tabula <num type="ordinal" value="6">VI</num><choice><abbr>v</abbr><expan>verso</expan></choice></hi>
+                       (gi&#224;, <placeName ref="#Sarz">Sarzana</placeName><choice><abbr>Arch.</abbr><expan>Archivio</expan></choice> Notarile, serie <num>342</num>, <choice><abbr>nr.</abbr><expan>numero</expan></choice><num>5</num>, c.<hi rend="italic"><num>275</num><choice><abbr>v</abbr><expan>verso</expan></choice></hi>)
+                       un tempo parte del protocollo di imbreviature del <persName ref="#GiovandiParen"><roleName type="office">notaio</roleName> <forename>Giovanni</forename> di <surname>Parente</surname> <surname>Stupio</surname></persName><pc>.</pc></p> 
+                    </div> 
+                <div type="BiblEdizioni">
+                    <p>Edizioni:
+                        <listBibl>
+                            <bibl source="#CDDBIPASS148">
+                                  <editor ref="#GUIB">
+                                    <persName>
+                                        <surname>Biagi</surname>
+                                    </persName>
+                                </editor>-
+                                  <editor ref="#GILP">
+                                    <persName>
+                                        <surname>Passerini</surname>,
+                                    </persName>
+                                </editor>
+                                <title><choice><abbr>CDD</abbr><expan>Codice diplomatico dantesco</expan></choice></title>,
+                                <biblScope unit="volume"><num type="ordinal" value="8">disp. VIII</num></biblScope>
+                                <biblScope unit="page"><num type="cardinal" value="16">pp. 16</num></biblScope>.
+                            </bibl>
+                        </listBibl>
+                    </p>
+            </div>                      
+            </front>
+            <body>
+                <div xml:lang="la" type="148">
+                    
+                    <!--ASSpezia, Archivio notarile, Pace di Dante,  tabulae VIv (già Sarzana, Arch. Notarile, serie 342, nr.5,
+                    c.275v) un tempo parte del protocollo di imbreviature del notaio Giovanni di Parente Stupio. Per
+                    le condizioni dell’ orig. e le integrazioni delle lacune vd. doc. 144.
+                    Edizione: BIAGI-PASSERINI, CDD, disp. VIII p.16.-->
+
+                    
+                            <p n="p1"><milestone n="|1|" unit="paragraph"/>In nomine Domini, amen. Anno a nativitate eius <date when="1306">millesimo CCCVI</date>, inditione
+                            <num type="ordinal" value="4">IIII<hi rend="apex">a</hi></num>, die <date when="--/10/18"><num type="cardinal" value="18">XVIII</num> mensis octubris</date><pc>.</pc> </p>
+
+                            <p n="p2"><milestone n="|2|" unit="paragraph"/><persName ref="#Antlun"><addName type="honorific">Venerabilis pater</addName> <addName type="honorific">dominus</addName> <forename>Antonius</forename>, divina miseratione <placeName ref="#Lun">Lunensis</placeName> <roleName type="office">episcopus</roleName> et <roleName type="nobility">comes</roleName></persName>,
+                            volens adimplere promissionem factam per ipsum <persName ref="#Dante"><forename>Danti</forename> <surname>Alegerii</surname> de <placeName ref="#FI">Florentia</placeName></persName>,
+                            procuratori <persName ref="#Franmal"><addName type="honorific">magnifici</addName> et <addName type="honorific">excelsi</addName> <addName type="honorific">viri domini</addName> <forename>Francischini</forename> <roleName type="nobility">marchionis</roleName> <surname>Malaspina</surname></persName>,
+                            recipienti pro ipso et procuratorio nomine ipsius <persName ref="#Franmal"><addName type="honorific">domini</addName> <forename>Francischini</forename></persName> pro <persName ref="#Morroel"><addName type="honorific">dominis</addName> <forename>Morroello</forename></persName> et <persName ref="#Corrad"><forename>Conradino</forename> <roleName type="nobility">marchionibus</roleName> <surname>Malaspina</surname></persName> et eorum sequacibus et amicis,
+                            in compositione pacis inite inter ipsum <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName> et dictum <persName ref="#Dante"><forename>Dantem</forename></persName>,
+                            nomine predictorum dominorum marchionum et amicorum et sequacium eorundem,
+                            de qua pace continetur publicis instrumentis scriptis manu mei infrascripti notarii et <persName><forename>Tomasii</forename> <roleName type="office">condam</roleName> <surname>Bonacursii</surname> de <placeName ref="#Sarz">Sarzana</placeName></persName>
+                            in presenti millesimo et inditione, die <date when="--/10/06"><num type="cardinal" value="6">VI</num> octubris</date> presentis mensis, </p> 
+
+                            <p n="p3"><milestone n="|3|" unit="paragraph"/>remisit infrascriptis hominibus et personis,
+                            datis et nominatis pro amicis et sequacibus dominorum marchionum predictorum per prefatum <persName ref="#Franmal"><addName type="honorific">dominum</addName> <forename>Francischinum</forename> <roleName type="nobility">marchionem</roleName></persName> predictum,
+                            omnes processus, sententias, conde<supplied resp="#LR" reason="omitted-in-original">m</supplied>pnationes et banna factos,
+                            facta et data contra infrascriptas personas vel aliquam earum vel in eorum preiudicium 
+                            per ipsum <persName ref="#Antlun"><addName type="honorific">dominum</addName> <roleName type="office">episcopum</roleName></persName> seu predecessores suos, vel aliquem seu aliquos vicarios
+                            vel alios officiales suos vel predecessorum suorum, a <date when="--/10/06">die <num type="cardinal" value="6">VI</num> presentis mensis octubris</date>
+                            retro, quo pax predicta fuit inita et facta; et ipsos processus, sententias, condempnationes et banna cassat,
+                            revocat, irritat et anulat per hoc presens publicum instrumentum<pc>;</pc> </p>
+
+                            <p n="p4"><milestone n="|4|" unit="paragraph"/>mandans, volens et decernens per vicarios, iudices et notarios vicarie et per quoslibet alios potestates,
+                            rectores vel officiales, quocunque nomine censeatur, episcopatus <placeName ref="#Lun">Lunensis</placeName> predicta omnia, processus, condempnationes,
+                            sententias et banna haberi et teneri pro vanis, cassis, nullis et irritis et nullis debere existere firmitatis,
+                            non obstantibus aliquibus constitutionibus vel statutis vicarie <placeName ref="#Lun">Lunexane</placeName> factis vel
+                            opponeretur certa forma vel condicio super processibus, condempnationibus et bannis huiusmodi cassandis,
+                            remictendis, anullandis et revocandis seu decernentibus<pc>;</pc> processus, sententias, condempnationes et banna anullata, cassata, irritata et
+                            revoca aliter quam secundum formam et modum in ipsis statutis et constitutionibus comprehensum non valere nec tenere seu fieri non debere vel posse,
+                            seu quecunque alia verba in ipsis statutis et constitutionibus contineantur per que predicta
+                            possint impediri vel <gap reason="illegible" agent="damage"/> predicta fieri non debuisse vel potuisse per que <gap reason="illegible" agent="damage"/> fieri
+                            <gap reason="illegible" agent="damage"/>um statuit et decrevit<pc>;</pc> </p>
+
+                            <p n="p5"><milestone n="|5|" unit="paragraph"/>et ad maiorem predictorum omnium firmitatem, <supplied resp="#LR" reason="support-damage"><hi rend="italic">vigore</hi></supplied> dicte potestatis et ex auctoritate et potestate sibi concessa per statuta 
+                            et <supplied resp="#LR" reason="support-damage"><hi rend="italic">constitutiones gen</hi></supplied>eralis vicarie <placeName ref="#Lun">Lunexane</placeName>,
+                            statuit, constituit et decrevit <supplied resp="#LR" reason="support-damage"><hi rend="italic>">quod</hi> proces<hi rend="italic">sus, sententias, condempnationes</hi></supplied> et banna factos,
+                            facta et data de <supplied resp="#LR" reason="support-damage">infra</supplied>scriptis omnibus <gap reason="illegible" agent="damage"/> debere haberi et teneri per vicarium,
+                            iudices, not<supplied resp="#LR" reason="support-damage">arios, <hi rend="italic">potestates</hi></supplied>, rec<supplied resp="#LR" reason="support-damage"><hi rend="italic">tore</hi></supplied>s 
+                            et quoslibet alios officiales vicarie et episcopatus <supplied resp="#LR" reason="support-damage"><placeName ref="#Lun"><hi rend="italic">Lunexane</hi></placeName></supplied> pro <supplied resp="#LR" reason="support-damage"><hi rend="italic">cas</hi></supplied>sis, nullis et irritis
+                            et nullius existere valoris, firmitatis <gap reason="illegible" agent="damage"/> vel momenti, et quod ad observationem
+                            omnium predictorum tene<supplied resp="#LR" reason="support-damage"><hi rend="italic">ri</hi></supplied> offi<supplied resp="#LR" reason="support-damage"><hi rend="italic">cio</hi></supplied> debito vicarii, iudices, notarii, potestates,
+                            rectores et quilibet alii of<supplied resp="#LR" reason="support-damage"><hi rend="italic">ficiale</hi></supplied>s vicarie et episcopatus <placeName ref="#Lun">Lunexane</placeName>, qui nunc sunt vel pro <supplied resp="#LR" reason="support-damage"><hi rend="italic">tempore</hi></supplied> fuerint<pc>.</pc> </p>
+
+                            <p n="p6"><milestone n="|6|" unit="paragraph"/>Insuper con<supplied resp="#LR" reason="support-damage"><hi rend="italic">cessit</hi></supplied> mihi infrascripto notario, stipulanti et
+                            recipienti nomine et vice omnium singularum infrascriptarum personarum et omnium aliarum quarum interest vel interesse poss<supplied resp="#LR" reason="support-damage"><hi rend="italic">it</hi></supplied>, potestatem et auctoritatem
+                            cassandi et cancellandi omnes processus, sententias, <supplied resp="#LR" reason="support-damage"><hi rend="italic">condem</hi></supplied>pnationes et banna
+                            factos, facta et data de infrascriptis personis in quibuscunque libris <supplied resp="#LR" reason="support-damage">esse</supplied> vel reperiri posse<supplied resp="#LR" reason="omitted-in-original">n</supplied>t<pc>.</pc> </p>
+
+                            <p n="p7"><milestone n="|7|" unit="paragraph"/>Nomina vero predictorum sunt hec<pc type="colon">:</pc> <persName><forename>Bartolus</forename></persName> et <persName><forename>Francischellus</forename> condam <surname>Facii</surname> <surname>de Trebiano</surname></persName>,
+                            <persName><forename>Franchinellus</forename> de <placeName ref="#Lun">Luni</placeName></persName>, <persName><forename>Petrus</forename> condam <surname>Bandini</surname></persName>, <persName><forename>Symonellus</forename></persName> <gap reason="illegible" agent="damage"/>pervide<gap reason="illegible" agent="damage"/>
+                            , <persName><forename>Cattus</forename> <surname>Bonacorsini</surname></persName> de Castro habitator <placeName ref="#Arcol">Arcule</placeName><pc>.</pc>
+                            Hoc intellecto et exceptato quod dictus <persName><forename>Bartolus</forename></persName> non sit nec intelligatur esse extractus per presens
+                            documentum de banno seu processu suprascripto dato seu formato contra eum
+                            occasione litis <persName><forename>Ricii</forename> <surname>Sarzani</surname></persName> nisi p<supplied resp="#LR" reason="support-damage">rius</supplied> pacem fac<supplied resp="#LR" reason="support-damage">eret cum</supplied> eodem, et facta pace in
+                            totum sit absolutus, ut sup<supplied xml:id="sup40" resp="#LR" reason="support-damage"><hi rend="italic">rascriptum est</hi><pc>.</pc></supplied>
+                            <lb />
+                            <supplied xml:id="sup41" resp="#LR" reason="support-damage">Actum in camera episcopalis</supplied><join target="#sup40 #sup41" result="supplied" scope="root"/> palacii de <placeName ref="#Castelnu">Castro Novo</placeName>,
+                            presentibus <persName ref="#Franmal"><addName type="honorific">domino</addName> <forename>Francischino</forename></persName>
+                            <supplied xml:id="sup42" resp="#LR" reason="support-damage"><gap reason="illegible" agent="damage"/>, </supplied><persName ref="#Guglielm"><supplied xml:id="sup43" resp="#LR" reason="support-damage"><addName type="honorific"><hi rend="italic">fratre</hi></addName> <forename><hi rend="italic">Guillielmo</hi></forename></supplied> <join target="#sup42 #sup43" result="supplied" scope="root"/> <surname>Malaspina</surname></persName>,
+                            <persName ref="#Franmal"><addName type="honorific">dominis</addName> <forename>Francischino</forename></persName> et <persName><forename>Bonacorso</forename> <roleName type="office">iudicibus</roleName></persName>, <gap reason="illegible" agent="damage"/> <persName><addName type="honorific">fratre</addName> <forename>Guillielmo</forename> de <placeName ref="#Sestgod">Godano</placeName></persName> et <persName><addName type="honorific">fratre</addName> <forename>Gasparino</forename></persName><pc>.</pc></p>
+                </div>
+            </body>
+        </text>
+    </group>
+</text>
+    <facsimile> 
+        <surfaceGrp  n="gruppo144"> 
+            <surface xml:id="surf144_1" ulx="14" uly="15" lrx="589" lry="806">
+                <graphic url="Tabula1_R.jpg"/>
+            </surface>
+            <surface xml:id="surf144_2" ulx="17" uly="14" lrx="598" lry="802">
+                <graphic url="Tabula1_V.jpg" />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp  n="gruppo145">
+            <surface xml:id="surf145_1" ulx="25" uly="20" lrx="602" lry="808">
+                <graphic url="Tabula2_R.jpg"/>
+            </surface>
+            <surface xml:id="surf145_2" ulx="21" uly="19" lrx="601" lry="806">
+                <graphic url="Tabula2_V.jpg"/>
+            </surface>
+            <surface xml:id="surf145_3" ulx="26" uly="19" lrx="594" lry="808">
+                <graphic url="Tabula3_R.jpg"/>
+            </surface>
+            <surface xml:id="surf145_4" ulx="20" uly="11" lrx="603" lry="798">
+                <graphic url="Tabula3_V.jpg"/>
+            </surface>
+            <surface xml:id="surf145_5" ulx="18" uly="20" lrx="598" lry="803">
+                <graphic url="Tabula4_R.jpg"/>
+            </surface>
+            <surface xml:id="surf145_6" ulx="18" uly="17" lrx="605" lry="806">
+                <graphic url="Tabula4_V.jpg"/>
+            </surface>
+            <surface xml:id="surf145_7" ulx="18" uly="17" lrx="595" lry="800">
+                <graphic url="Tabula5_R.jpg"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp  n="gruppo146">
+            <surface xml:id="surf146_1" ulx="17" uly="14" lrx="597" lry="801">
+                <graphic url="Tabula5_V.jpg"/>
+            </surface>
+            <surface xml:id="surf146_2" ulx="10" uly="19" lrx="303" lry="309">
+                <graphic url="Tabula6_R.jpg"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp  n="gruppo147">
+            <surface xml:id="surf147_1" points = '8,319 3,803 601,795 598,22 307,27 304,318'>
+                <graphic url="Tabula6_R.jpg" />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp  n="gruppo148">
+            <surface xml:id="surf148_1" ulx="11" uly="17" lrx="605" lry="809">
+                <graphic url="Tabula6_V.jpg"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+</TEI>
